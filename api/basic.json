@@ -1,0 +1,242 @@
+[
+    {
+        "ques": "What is Flutter primarily used for?",
+        "code": "",
+        "options": ["Building natively compiled applications for mobile, web, and desktop from a single codebase", "Building server-side applications", "Developing machine learning models", "Creating database management systems"]
+    },
+    {
+        "ques": "Which programming language is used by Flutter?",
+        "code": "",
+        "options": ["Dart", "Java", "Kotlin", "Swift"]
+    },
+    {
+        "ques": "What is the main advantage of using Flutter?",
+        "code": "",
+        "options": ["Hot Reload", "More readable code", "More control over the database", "Integration with backend"]
+    },
+    {
+        "ques": "How do you declare a variable in Dart?",
+        "code": "",
+        "options": ["var x = 10;", "int x = 10;", "float x = 10.0;", "variable x = 10;"]
+    },
+    {
+        "ques": "Which of the following is a valid way to create a list in Dart?",
+        "code": "",
+        "options": ["List<int> myList = [1, 2, 3];", "Array myList = [1, 2, 3];", "int myList[] = {1, 2, 3};", "List myList = new List();"]
+    },
+    {
+        "ques": "How do you write a single-line comment in Dart?",
+        "code": "",
+        "options": ["// This is a comment", "# This is a comment", "<!-- This is a comment -->", "/* This is a comment */"]
+    },
+    {
+        "ques": "Which command is used to create a new Flutter project?",
+        "code": "",
+        "options": ["flutter create my_project", "flutter init my_project", "flutter new my_project", "flutter start my_project"]
+    },
+    {
+        "ques": "What is the correct command to run a Flutter app on a connected device?",
+        "code": "",
+        "options": ["flutter run", "flutter start", "flutter launch", "flutter execute"]
+    },
+    {
+        "ques": "Which file contains the metadata for a Flutter project?",
+        "code": "",
+        "options": ["pubspec.yaml", "manifest.json", "project.json", "config.yaml"]
+    },
+    {
+        "ques": "What tool is used to manage Dart packages in a Flutter project?",
+        "code": "",
+        "options": ["pub", "npm", "pip", "composer"]
+    },
+  {
+        "ques": "Which company developed Flutter?",
+        "code": "",
+        "options": ["Google", "Facebook", "Microsoft", "Apple"]
+    },
+    {
+        "ques": "Which of the following widgets is used to create an immutable container in Flutter?",
+        "code": "",
+        "options": ["Container", "StatelessWidget", "StatefulWidget", "Column"]
+    },
+    {
+        "ques": "In Flutter, what does the 'setState' method do?",
+        "code": "",
+        "options": ["Updates the state of the widget and triggers a rebuild", "Deletes the state of the widget", "Pauses the state of the widget", "Resets the state of the widget"]
+    },
+    {
+        "ques": "What is the command to add a new dependency in the pubspec.yaml file?",
+        "code": "",
+        "options": ["dependencies: <package_name>: <version>", "require <package_name>: <version>", "import <package_name>: <version>", "include <package_name>: <version>"]
+    },
+    {
+        "ques": "Which of the following is not a type of widget in Flutter?",
+        "code": "",
+        "options": ["PageView", "ListView", "ScrollView", "ViewGroup"]
+    },
+    {
+        "ques": "How do you perform asynchronous operations in Dart?",
+        "code": "",
+        "options": ["Using async and await", "Using threads", "Using promises", "Using callbacks"]
+    },
+    {
+        "ques": "What is the command to build a release APK in Flutter?",
+        "code": "",
+        "options": ["flutter build apk --release", "flutter build apk --production", "flutter build release", "flutter create apk --release"]
+    },
+    {
+        "ques": "Which method is called when a stateful widget is created in Flutter?",
+        "code": "",
+        "options": ["initState", "createState", "build", "dispose"]
+    },
+    {
+        "ques": "What is the primary building block of a Flutter UI?",
+        "code": "",
+        "options": ["Widget", "Component", "Module", "Screen"]
+    },
+    {
+        "ques": "How do you create a private variable in Dart?",
+        "code": "",
+        "options": ["Prefix the variable name with an underscore (_)", "Prefix the variable name with a dollar sign ($)", "Prefix the variable name with a hash (#)", "Use the 'private' keyword"]
+    },
+    {
+        "ques": "What is the main function of the 'Navigator' widget in Flutter?",
+        "code": "",
+        "options": ["Managing a stack of route objects", "Handling user input", "Rendering UI elements", "Managing application state"]
+    },
+    {
+        "ques": "Which Dart keyword is used to define a constant variable?",
+        "code": "",
+        "options": ["const", "final", "static", "immutable"]
+    },
+    {
+        "ques": "In Flutter, which widget would you use to create a scrollable list?",
+        "code": "",
+        "options": ["ListView", "ScrollView", "Column", "Stack"]
+    },
+    {
+        "ques": "How do you specify an icon in a Flutter widget?",
+        "code": "",
+        "options": ["Icon(Icons.add)", "Icon.Add", "Icon('add')", "new Icon.add()"]
+    },
+    {
+        "ques": "Which of the following is a valid way to create a Map in Dart?",
+        "code": "",
+        "options": ["var myMap = {'key1': 'value1', 'key2': 'value2'};", "var myMap = map('key1', 'value1', 'key2', 'value2');", "var myMap = new Map({'key1': 'value1', 'key2': 'value2'});", "var myMap = {'key1' => 'value1', 'key2' => 'value2'};"]
+    },
+  {
+        "ques": "Which of the following is a valid way to create a class in Dart?",
+        "code": '''
+class MyClass {
+  String name;
+  MyClass(this.name);
+}
+''',
+        "options": ["Correct", "Incorrect - Missing class keyword", "Incorrect - Missing constructor", "Incorrect - Invalid variable declaration"]
+    },
+    {
+        "ques": "How do you create a StatelessWidget in Flutter?",
+        "code": '''
+class MyWidget extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
+''',
+        "options": ["Correct", "Incorrect - Should extend StatefulWidget", "Incorrect - Missing build method", "Incorrect - Should return a Column"]
+    },
+    {
+        "ques": "What is the purpose of the 'initState' method in Flutter?",
+        "code": "",
+        "options": ["To initialize state when the widget is first created", "To build the widget tree", "To dispose of the state", "To update the state"]
+    },
+    {
+        "ques": "Which Dart keyword is used to create an immutable object?",
+        "code": "",
+        "options": ["final", "const", "var", "static"]
+    },
+    {
+        "ques": "How do you handle errors in Dart?",
+        "code": '''
+try {
+  // code that might throw an exception
+} catch (e) {
+  // code to handle the exception
+}
+''',
+        "options": ["Correct", "Incorrect - Should use if-else", "Incorrect - Should use onError", "Incorrect - Should use finally"]
+    },
+    {
+        "ques": "Which widget is used to layout children in a single horizontal row in Flutter?",
+        "code": "",
+        "options": ["Row", "Column", "Stack", "ListView"]
+    },
+    {
+        "ques": "How do you convert a string to an integer in Dart?",
+        "code": '''
+int myInt = int.parse('123');
+''',
+        "options": ["Correct", "Incorrect - Should use toInt method", "Incorrect - Should use parseInt function", "Incorrect - Should use Integer.parse"]
+    },
+    {
+        "ques": "What does the 'dispose' method do in Flutter?",
+        "code": "",
+        "options": ["Cleans up the resources used by the widget", "Initializes the widget", "Builds the widget tree", "Triggers a rebuild of the widget"]
+    },
+    {
+        "ques": "How do you import a package in Dart?",
+        "code": '''
+import 'package:http/http.dart';
+''',
+        "options": ["Correct", "Incorrect - Should use require keyword", "Incorrect - Should use include keyword", "Incorrect - Should use load keyword"]
+    },
+    {
+        "ques": "What is the purpose of the 'MaterialApp' widget in Flutter?",
+        "code": "",
+        "options": ["Acts as the root of the widget tree and provides material design visual structure", "Manages application state", "Handles user input", "Controls the navigation"]
+    },
+    {
+        "ques": "How do you define a main function in Dart?",
+        "code": '''
+void main() {
+  // code to execute
+}
+''',
+        "options": ["Correct", "Incorrect - Should use int main()", "Incorrect - Should use main void()", "Incorrect - Should use start()"]
+    },
+    {
+        "ques": "How do you create a ListView with dynamic content in Flutter?",
+        "code": '''
+ListView.builder(
+  itemCount: items.length,
+  itemBuilder: (context, index) {
+    return ListTile(
+      title: Text(items[index]),
+    );
+  },
+);
+''',
+        "options": ["Correct", "Incorrect - Should use ListView.dynamic", "Incorrect - Should use ListView.static", "Incorrect - Should use ListView.create"]
+    },
+    {
+        "ques": "What does the 'async' keyword do in Dart?",
+        "code": "",
+        "options": ["Allows the function to run asynchronously and return a Future", "Creates a new thread", "Pauses the function execution", "Handles exceptions"]
+    },
+    {
+        "ques": "How do you define a constructor in Dart?",
+        "code": '''
+  class MyClass {
+  String name;
+  MyClass(this.name);
+}
+''',
+        "options": ["Correct", "Incorrect - Missing constructor keyword", "Incorrect - Constructor should be named 'constructor'", "Incorrect - Invalid variable declaration"]
+    },
+    {
+        "ques": "Which widget is used to create a vertical layout of children in Flutter?",
+        "code": "",
+        "options": ["Column", "Row", "Stack", "ListView"]
+    }
+]
