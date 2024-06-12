@@ -1,5 +1,10 @@
 [
     {
+        "ques": "Which of the following is a valid way to create a class in Dart?",
+        "code": "class MyClass {\n  String name;\n  MyClass(this.name);\n}",
+        "options": ["Correct", "Incorrect - Missing class keyword", "Incorrect - Missing constructor", "Incorrect - Invalid variable declaration"]
+    },
+    {
         "ques": "What is Flutter primarily used for?",
         "code": "",
         "options": ["Building natively compiled applications for mobile, web, and desktop from a single codebase", "Building server-side applications", "Developing machine learning models", "Creating database management systems"]
@@ -49,7 +54,7 @@
         "code": "",
         "options": ["pub", "npm", "pip", "composer"]
     },
-  {
+    {
         "ques": "Which company developed Flutter?",
         "code": "",
         "options": ["Google", "Facebook", "Microsoft", "Apple"]
@@ -124,26 +129,9 @@
         "code": "",
         "options": ["var myMap = {'key1': 'value1', 'key2': 'value2'};", "var myMap = map('key1', 'value1', 'key2', 'value2');", "var myMap = new Map({'key1': 'value1', 'key2': 'value2'});", "var myMap = {'key1' => 'value1', 'key2' => 'value2'};"]
     },
-  {
-        "ques": "Which of the following is a valid way to create a class in Dart?",
-        "code": '''
-class MyClass {
-  String name;
-  MyClass(this.name);
-}
-''',
-        "options": ["Correct", "Incorrect - Missing class keyword", "Incorrect - Missing constructor", "Incorrect - Invalid variable declaration"]
-    },
     {
         "ques": "How do you create a StatelessWidget in Flutter?",
-        "code": '''
-class MyWidget extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
-}
-''',
+        "code": "class MyWidget extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return Container();\n  }\n}",
         "options": ["Correct", "Incorrect - Should extend StatefulWidget", "Incorrect - Missing build method", "Incorrect - Should return a Column"]
     },
     {
@@ -158,13 +146,7 @@ class MyWidget extends StatelessWidget {
     },
     {
         "ques": "How do you handle errors in Dart?",
-        "code": '''
-try {
-  // code that might throw an exception
-} catch (e) {
-  // code to handle the exception
-}
-''',
+        "code": "try {\n  // code that might throw an exception\n} catch (e) {\n  // code to handle the exception\n}",
         "options": ["Correct", "Incorrect - Should use if-else", "Incorrect - Should use onError", "Incorrect - Should use finally"]
     },
     {
@@ -174,9 +156,7 @@ try {
     },
     {
         "ques": "How do you convert a string to an integer in Dart?",
-        "code": '''
-int myInt = int.parse('123');
-''',
+        "code": "int myInt = int.parse('123');",
         "options": ["Correct", "Incorrect - Should use toInt method", "Incorrect - Should use parseInt function", "Incorrect - Should use Integer.parse"]
     },
     {
@@ -186,9 +166,7 @@ int myInt = int.parse('123');
     },
     {
         "ques": "How do you import a package in Dart?",
-        "code": '''
-import 'package:http/http.dart';
-''',
+        "code": "import 'package:http/http.dart';",
         "options": ["Correct", "Incorrect - Should use require keyword", "Incorrect - Should use include keyword", "Incorrect - Should use load keyword"]
     },
     {
@@ -198,25 +176,12 @@ import 'package:http/http.dart';
     },
     {
         "ques": "How do you define a main function in Dart?",
-        "code": '''
-void main() {
-  // code to execute
-}
-''',
+        "code": "void main() {\n  // code to execute\n}",
         "options": ["Correct", "Incorrect - Should use int main()", "Incorrect - Should use main void()", "Incorrect - Should use start()"]
     },
     {
         "ques": "How do you create a ListView with dynamic content in Flutter?",
-        "code": '''
-ListView.builder(
-  itemCount: items.length,
-  itemBuilder: (context, index) {
-    return ListTile(
-      title: Text(items[index]),
-    );
-  },
-);
-''',
+        "code": "ListView.builder(\n  itemCount: items.length,\n  itemBuilder: (context, index) {\n    return ListTile(\n      title: Text(items[index]),\n    );\n  },\n);",
         "options": ["Correct", "Incorrect - Should use ListView.dynamic", "Incorrect - Should use ListView.static", "Incorrect - Should use ListView.create"]
     },
     {
@@ -226,12 +191,7 @@ ListView.builder(
     },
     {
         "ques": "How do you define a constructor in Dart?",
-        "code": '''
-  class MyClass {
-  String name;
-  MyClass(this.name);
-}
-''',
+        "code": "  class MyClass {\n  String name;\n  MyClass(this.name);\n}",
         "options": ["Correct", "Incorrect - Missing constructor keyword", "Incorrect - Constructor should be named 'constructor'", "Incorrect - Invalid variable declaration"]
     },
     {
