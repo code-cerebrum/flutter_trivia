@@ -1054,5 +1054,5 @@
     {
         "ques": "Which Dart operator is used for bitwise OR?",
         "options": ["|", "||", "&", "&|"]
-    },
+    }
 ]
