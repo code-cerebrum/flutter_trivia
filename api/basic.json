@@ -1,202 +1,1058 @@
 [
     {
-        "ques": "Which of the following is a valid way to create a class in Dart?",
-        "code": "class MyClass {\n  String name;\n  MyClass(this.name);\n}",
-        "options": ["Correct", "Incorrect - Missing class keyword", "Incorrect - Missing constructor", "Incorrect - Invalid variable declaration"]
-    },
-    {
-        "ques": "How do you create a StatelessWidget in Flutter?",
-        "code": "class MyWidget extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return Container();\n  }\n}",
-        "options": ["Correct", "Incorrect - Should extend StatefulWidget", "Incorrect - Missing build method", "Incorrect - Should return a Column"]
-    },
-    {
         "ques": "What is Flutter primarily used for?",
-        "code": "",
-        "options": ["Building natively compiled applications for mobile, web, and desktop from a single codebase", "Building server-side applications", "Developing machine learning models", "Creating database management systems"]
+        "options": ["Building cross-platform mobile apps", "Building desktop applications", "Creating web servers", "Game development"]
     },
     {
-        "ques": "Which programming language is used by Flutter?",
-        "code": "",
+        "ques": "Which language is used to develop Flutter applications?",
         "options": ["Dart", "Java", "Kotlin", "Swift"]
     },
     {
-        "ques": "What is the main advantage of using Flutter?",
-        "code": "",
-        "options": ["Hot Reload", "More readable code", "More control over the database", "Integration with backend"]
+        "ques": "What command is used to create a new Flutter project?",
+        "options": ["flutter create project_name", "flutter start project_name", "flutter new project_name", "flutter init project_name"]
+    },
+    {
+        "ques": "What is the entry point of a Flutter application?",
+        "options": ["main()", "start()", "init()", "run()"]
+    },
+    {
+        "code": "void main() {\n  var x = 5;\n  var y = 3;\n  print(x + y);\n}",
+        "options": ["8", "5", "3", "15"]
+    },
+    {
+        "code": "void main() {\n  var str = 'Hello';\n  print(str.length);\n}",
+        "options": ["5", "6", "Hello", "1"]
+    },
+    {
+        "code": "void main() {\n  var list = [1, 2, 3, 4];\n  print(list.length);\n}",
+        "options": ["4", "1", "[1, 2, 3, 4]", "3"]
+    },
+    {
+        "code": "void main() {\n  var condition = true;\n  var result = condition ? 'True' : 'False';\n  print(result);\n}",
+        "options": ["True", "False", "condition", "result"]
+    },
+    {
+        "code": "void main() {\n  var name = 'John';\n  var greeting = 'Hello, \$name!';\n  print(greeting);\n}",
+        "options": ["Hello, John!", "Hello, \$name!", "John", "greeting"]
+    },
+    {
+        "code": "void main() {\n  var numbers = [1, 2, 3, 4, 5];\n  var sum = 0;\n  for (var num in numbers) {\n    sum += num;\n  }\n  print(sum);\n}",
+        "options": ["15", "5", "[1, 2, 3, 4, 5]", "10"]
+    },
+    {
+        "code": "void main() {\n  var x = 10;\n  var y = 3;\n  print(x ~/ y);\n}",
+        "options": ["3", "10", "0", "5"]
+    },
+    {
+        "code": "void main() {\n  var name = 'Alice';\n  var greeting = 'Hello, \${name.toUpperCase()}!';\n  print(greeting);\n}",
+        "options": ["Hello, ALICE!", "Hello, \${name.toUpperCase()}!", "Alice", "greeting"]
+    },
+    {
+        "code": "void main() {\n  var list = [1, 2, 3, 4, 5];\n  var filteredList = list.where((num) => num.isEven).toList();\n  print(filteredList.length);\n}",
+        "options": ["2", "3", "[2, 4]", "5"]
+    },
+    {
+        "code": "void main() {\n  var str = 'Hello World';\n  var parts = str.split(' ');\n  print(parts.length);\n}",
+        "options": ["2", "11", "'Hello World'", "5"]
+    },
+    {
+        "code": "void main() {\n  var condition = false;\n  var result = condition ? 'True' : 'False';\n  print(result);\n}",
+        "options": ["False", "True", "condition", "result"]
+    },
+    {
+        "code": "void main() {\n  var numbers = [1, 2, 3, 4, 5];\n  var max = numbers.reduce((curr, next) => curr > next ? curr : next);\n  print(max);\n}",
+        "options": ["5", "1", "[1, 2, 3, 4, 5]", "15"]
+    },
+    {
+        "ques": "Which widget is used for creating a mutable state in Flutter?",
+        "options": ["StatefulWidget", "StatelessWidget", "InheritedWidget", "Container"]
+    },
+    {
+        "ques": "What is a Dart function that has no return type specified?",
+        "options": ["void", "int", "String", "dynamic"]
     },
     {
         "ques": "How do you declare a variable in Dart?",
-        "code": "",
-        "options": ["var x = 10;", "int x = 10;", "float x = 10.0;", "variable x = 10;"]
+        "options": ["var name = 'value';", "let name = 'value';", "dim name as 'value';", "string name = 'value';"]
     },
     {
-        "ques": "Which of the following is a valid way to create a list in Dart?",
-        "code": "",
-        "options": ["List<int> myList = [1, 2, 3];", "Array myList = [1, 2, 3];", "int myList[] = {1, 2, 3};", "List myList = new List();"]
-    },
-    {
-        "ques": "How do you write a single-line comment in Dart?",
-        "code": "",
-        "options": ["// This is a comment", "# This is a comment", "<!-- This is a comment -->", "/* This is a comment */"]
-    },
-    {
-        "ques": "Which command is used to create a new Flutter project?",
-        "code": "",
-        "options": ["flutter create my_project", "flutter init my_project", "flutter new my_project", "flutter start my_project"]
-    },
-    {
-        "ques": "What is the correct command to run a Flutter app on a connected device?",
-        "code": "",
-        "options": ["flutter run", "flutter start", "flutter launch", "flutter execute"]
-    },
-    {
-        "ques": "Which file contains the metadata for a Flutter project?",
-        "code": "",
-        "options": ["pubspec.yaml", "manifest.json", "project.json", "config.yaml"]
-    },
-    {
-        "ques": "What tool is used to manage Dart packages in a Flutter project?",
-        "code": "",
-        "options": ["pub", "npm", "pip", "composer"]
-    },
-    {
-        "ques": "Which company developed Flutter?",
-        "code": "",
-        "options": ["Google", "Facebook", "Microsoft", "Apple"]
-    },
-    {
-        "ques": "Which of the following widgets is used to create an immutable container in Flutter?",
-        "code": "",
-        "options": ["Container", "StatelessWidget", "StatefulWidget", "Column"]
-    },
-    {
-        "ques": "In Flutter, what does the 'setState' method do?",
-        "code": "",
-        "options": ["Updates the state of the widget and triggers a rebuild", "Deletes the state of the widget", "Pauses the state of the widget", "Resets the state of the widget"]
-    },
-    {
-        "ques": "What is the command to add a new dependency in the pubspec.yaml file?",
-        "code": "",
-        "options": ["dependencies: <package_name>: <version>", "require <package_name>: <version>", "import <package_name>: <version>", "include <package_name>: <version>"]
-    },
-    {
-        "ques": "Which of the following is not a type of widget in Flutter?",
-        "code": "",
-        "options": ["PageView", "ListView", "ScrollView", "ViewGroup"]
-    },
-    {
-        "ques": "How do you perform asynchronous operations in Dart?",
-        "code": "",
-        "options": ["Using async and await", "Using threads", "Using promises", "Using callbacks"]
-    },
-    {
-        "ques": "What is the command to build a release APK in Flutter?",
-        "code": "",
-        "options": ["flutter build apk --release", "flutter build apk --production", "flutter build release", "flutter create apk --release"]
-    },
-    {
-        "ques": "Which method is called when a stateful widget is created in Flutter?",
-        "code": "",
-        "options": ["initState", "createState", "build", "dispose"]
-    },
-    {
-        "ques": "What is the primary building block of a Flutter UI?",
-        "code": "",
-        "options": ["Widget", "Component", "Module", "Screen"]
-    },
-    {
-        "ques": "How do you create a private variable in Dart?",
-        "code": "",
-        "options": ["Prefix the variable name with an underscore (_)", "Prefix the variable name with a dollar sign ($)", "Prefix the variable name with a hash (#)", "Use the 'private' keyword"]
-    },
-    {
-        "ques": "What is the main function of the 'Navigator' widget in Flutter?",
-        "code": "",
-        "options": ["Managing a stack of route objects", "Handling user input", "Rendering UI elements", "Managing application state"]
-    },
-    {
-        "ques": "Which Dart keyword is used to define a constant variable?",
-        "code": "",
+        "ques": "Which keyword is used to define a constant in Dart?",
         "options": ["const", "final", "static", "immutable"]
     },
     {
-        "ques": "In Flutter, which widget would you use to create a scrollable list?",
-        "code": "",
-        "options": ["ListView", "ScrollView", "Column", "Stack"]
+        "ques": "What is the purpose of the pubspec.yaml file?",
+        "options": ["Managing dependencies for a Flutter project", "Configuring app routing", "Defining widget properties", "Handling app state"]
     },
     {
-        "ques": "How do you specify an icon in a Flutter widget?",
-        "code": "",
-        "options": ["Icon(Icons.add)", "Icon.Add", "Icon('add')", "new Icon.add()"]
+        "ques": "What tool do you use to install Flutter on your machine?",
+        "options": ["Flutter SDK", "Android Studio", "Xcode", "Visual Studio Code"]
     },
     {
-        "ques": "Which of the following is a valid way to create a Map in Dart?",
-        "code": "",
-        "options": ["var myMap = {'key1': 'value1', 'key2': 'value2'};", "var myMap = map('key1', 'value1', 'key2', 'value2');", "var myMap = new Map({'key1': 'value1', 'key2': 'value2'});", "var myMap = {'key1' => 'value1', 'key2' => 'value2'};"]
+        "ques": "How can you check the installed Flutter version?",
+        "options": ["flutter --version", "flutter --check", "flutter --info", "flutter --details"]
     },
     {
-        "ques": "What is the purpose of the 'initState' method in Flutter?",
-        "code": "",
-        "options": ["To initialize state when the widget is first created", "To build the widget tree", "To dispose of the state", "To update the state"]
+        "ques": "Which file contains the Dart entry point of a Flutter application?",
+        "options": ["main.dart", "index.dart", "app.dart", "start.dart"]
     },
     {
-        "ques": "Which Dart keyword is used to create an immutable object?",
-        "code": "",
-        "options": ["final", "const", "var", "static"]
+        "ques": "Which method is used to update the state of a StatefulWidget?",
+        "options": ["setState()", "updateState()", "changeState()", "modifyState()"]
     },
     {
-        "ques": "How do you handle errors in Dart?",
-        "code": "try {\n  // code that might throw an exception\n} catch (e) {\n  // code to handle the exception\n}",
-        "options": ["Correct", "Incorrect - Should use if-else", "Incorrect - Should use onError", "Incorrect - Should use finally"]
+        "ques": "What is the default build mode for a Flutter application?",
+        "options": ["debug", "release", "profile", "test"]
     },
     {
-        "ques": "Which widget is used to layout children in a single horizontal row in Flutter?",
-        "code": "",
-        "options": ["Row", "Column", "Stack", "ListView"]
+        "ques": "How do you add a dependency in Flutter?",
+        "options": ["Add it in the pubspec.yaml file", "Include it in the main.dart file", "Write it in the build.gradle file", "Add it in the index.html file"]
     },
     {
-        "ques": "How do you convert a string to an integer in Dart?",
-        "code": "int myInt = int.parse('123');",
-        "options": ["Correct", "Incorrect - Should use toInt method", "Incorrect - Should use parseInt function", "Incorrect - Should use Integer.parse"]
+        "ques": "Which method is used to terminate a Dart program?",
+        "options": ["exit()", "terminate()", "stop()", "end()"]
     },
     {
-        "ques": "What does the 'dispose' method do in Flutter?",
-        "code": "",
-        "options": ["Cleans up the resources used by the widget", "Initializes the widget", "Builds the widget tree", "Triggers a rebuild of the widget"]
+        "ques": "What widget is used to create an infinite list in Flutter?",
+        "options": ["ListView.builder", "GridView.builder", "Column.builder", "Row.builder"]
+    },
+    {
+        "ques": "Which Flutter widget is used to create a scrollable list of items?",
+        "options": ["ListView", "GridView", "SingleChildScrollView", "ScrollableList"]
+    },
+    {
+        "ques": "What is the name of the command to run a Flutter app on a connected device?",
+        "options": ["flutter run", "flutter start", "flutter execute", "flutter launch"]
+    },
+    {
+        "ques": "Which widget would you use for padding in Flutter?",
+        "options": ["Padding", "Margin", "Container", "Spacer"]
+    },
+    {
+        "ques": "How do you define an asynchronous function in Dart?",
+        "options": ["async", "await", "future", "defer"]
+    },
+    {
+        "ques": "Which function is used to delay execution in Dart?",
+        "options": ["Future.delayed", "Delay.future", "Async.delay", "Future.defer"]
     },
     {
         "ques": "How do you import a package in Dart?",
-        "code": "import 'package:http/http.dart';",
-        "options": ["Correct", "Incorrect - Should use require keyword", "Incorrect - Should use include keyword", "Incorrect - Should use load keyword"]
+        "options": ["import 'package:package_name/package.dart';", "include 'package_name/package.dart';", "use 'package_name/package.dart';", "require 'package_name/package.dart';"]
     },
     {
-        "ques": "What is the purpose of the 'MaterialApp' widget in Flutter?",
-        "code": "",
-        "options": ["Acts as the root of the widget tree and provides material design visual structure", "Manages application state", "Handles user input", "Controls the navigation"]
+        "ques": "Which file is used to configure the iOS version of a Flutter app?",
+        "options": ["Info.plist", "AndroidManifest.xml", "pubspec.yaml", "config.xml"]
     },
     {
-        "ques": "How do you define a main function in Dart?",
-        "code": "void main() {\n  // code to execute\n}",
-        "options": ["Correct", "Incorrect - Should use int main()", "Incorrect - Should use main void()", "Incorrect - Should use start()"]
+        "ques": "What widget is used to display images in Flutter?",
+        "options": ["Image", "Picture", "Photo", "Img"]
     },
     {
-        "ques": "How do you create a ListView with dynamic content in Flutter?",
-        "code": "ListView.builder(\n  itemCount: items.length,\n  itemBuilder: (context, index) {\n    return ListTile(\n      title: Text(items[index]),\n    );\n  },\n);",
-        "options": ["Correct", "Incorrect - Should use ListView.dynamic", "Incorrect - Should use ListView.static", "Incorrect - Should use ListView.create"]
+        "ques": "What does the Flutter 'hot reload' feature do?",
+        "options": ["Updates the code and UI without restarting the app", "Clears the app's cache", "Restarts the app from scratch", "Compiles the app in release mode"]
     },
     {
-        "ques": "What does the 'async' keyword do in Dart?",
-        "code": "",
-        "options": ["Allows the function to run asynchronously and return a Future", "Creates a new thread", "Pauses the function execution", "Handles exceptions"]
+        "ques": "What command do you use to upgrade Flutter?",
+        "options": ["flutter upgrade", "flutter update", "flutter upgrade-sdk", "flutter update-sdk"]
+    },
+    {
+        "ques": "Which Dart type is used to represent both integer and floating-point numbers?",
+        "options": ["num", "double", "int", "decimal"]
+    },
+    {
+        "ques": "What keyword is used to create a constant constructor in Dart?",
+        "options": ["const", "final", "static", "immutable"]
+    },
+    {
+        "ques": "Which widget is used to create a button in Flutter?",
+        "options": ["ElevatedButton", "FlatButton", "TextButton", "RaisedButton"]
+    },
+    {
+        "ques": "How do you handle null safety in Dart?",
+        "options": ["Using the '?' operator", "Using the '!' operator", "Using the '??' operator", "Using the '&' operator"]
+    },
+    {
+        "ques": "What is the default value of an uninitialized variable in Dart?",
+        "options": ["null", "0", "undefined", "NaN"]
+    },
+    {
+        "ques": "How do you declare a list in Dart?",
+        "options": ["List<int> numbers = [];", "List numbers = [];", "int[] numbers = List();", "List<int> numbers = List<int>();"]
+    },
+    {
+        "ques": "What is the purpose of 'final' in Dart?",
+        "options": ["To declare a constant value that can be set only once", "To declare a variable that can be modified", "To indicate a nullable variable", "To declare a variable with no value"]
+    },
+    {
+        "ques": "How do you create a map in Dart?",
+        "options": ["Map<String, int> scores = {};","Map scores = {};", "Map<String, int> scores = Map();", "Map<String, int> scores = Map<String, int>();"]
+    },
+    {
+        "ques": "What is the function to check if a number is even in Dart?",
+        "options": ["isEven", "checkEven()", "even()", "isDivisibleByTwo()"]
+    },
+    {
+        "ques": "Which keyword is used to define a method in Dart?",
+        "options": ["void", "function", "def", "method"]
+    },
+    {
+        "ques": "How do you create a set in Dart?",
+        "options": ["Set<int> numbers = Set();", "Set<int> numbers = {};","Set<int> numbers = Set<int>();","Set numbers = Set();"]
+    },
+    {
+        "ques": "What is the function to iterate over a list in Dart?",
+        "options": ["forEach()", "iterate()", "foreach()", "each()"]
+    },
+    {
+        "ques": "How do you define a nullable variable in Dart?",
+        "options": ["int? number;", "int number;", "number?", "int number;"]
+    },
+    {
+        "ques": "Which method is used to convert a string to an integer in Dart?",
+        "options": ["int.parse()", "String.toInt()", "convert.toInt()", "parseInt()"]
+    },
+    {
+        "ques": "What is the output of '3 + 5' in Dart?",
+        "options": ["8", "35", "7", "35.0"]
+    },
+    {
+        "ques": "How do you define a class in Dart?",
+        "options": ["class MyClass {}", "new class MyClass {}", "class MyClass()", "define class MyClass()"]
+    },
+    {
+        "ques": "What keyword is used to define an abstract class in Dart?",
+        "options": ["abstract", "abstract class", "abstract class MyClass", "class abstract"]
+    },
+    {
+        "ques": "What does the 'this' keyword refer to in Dart?",
+        "options": ["The current instance of the class", "The superclass", "The current method", "The object itself"]
+    },
+    {
+        "ques": "Which method is used to convert a list to a string in Dart?",
+        "options": ["join()", "toString()", "listToString()", "convert()"]
     },
     {
         "ques": "How do you define a constructor in Dart?",
-        "code": "  class MyClass {\n  String name;\n  MyClass(this.name);\n}",
-        "options": ["Correct", "Incorrect - Missing constructor keyword", "Incorrect - Constructor should be named 'constructor'", "Incorrect - Invalid variable declaration"]
+        "options": ["MyClass() {}", "constructor MyClass() {}", "MyClass.new()", "MyClass() : super() {}"]
     },
     {
-        "ques": "Which widget is used to create a vertical layout of children in Flutter?",
-        "code": "",
-        "options": ["Column", "Row", "Stack", "ListView"]
-    }
+        "ques": "What is the return type of the main() function in Dart?",
+        "options": ["void", "int", "String", "Future"]
+    },
+    {
+        "ques": "How do you handle exceptions in Dart?",
+        "options": ["try-catch", "try-except", "catch-except", "handle-exception"]
+    },
+    {
+        "ques": "Which operator is used for type casting in Dart?",
+        "options": ["as", "is", "cast", "to"]
+    },
+    {
+        "ques": "How do you define a private variable in Dart?",
+        "options": ["With an underscore prefix", "With a dollar sign prefix", "With a hash prefix", "With the keyword 'private'"]
+    },
+    {
+        "ques": "What is the symbol for the null-aware operator in Dart?",
+        "options": ["??", "?", "!", "??!"]
+    },
+    {
+        "ques": "How do you concatenate strings in Dart?",
+        "options": ["Using the + operator", "Using the & operator", "Using the concat() method", "Using the . operator"]
+    },
+    {
+        "ques": "What is the keyword used to create an asynchronous generator in Dart?",
+        "options": ["async*", "await*", "async", "yield*"]
+    },
+    {
+        "ques": "How do you stop a loop prematurely in Dart?",
+        "options": ["Using the break statement", "Using the exit statement", "Using the stop statement", "Using the halt statement"]
+    },
+    {
+        "ques": "How do you check if a string contains a substring in Dart?",
+        "options": ["contains()", "has()", "includes()", "within()"]
+    },
+    {
+        "ques": "Which keyword is used to inherit a class in Dart?",
+        "options": ["extends", "inherits", "super", "implements"]
+    },
+    {
+        "ques": "How do you declare a constant list in Dart?",
+        "options": ["const List<int> numbers = [1, 2, 3];", "final List<int> numbers = [1, 2, 3];", "List<int> numbers = const [1, 2, 3];", "List<int> numbers = final [1, 2, 3];"]
+    },
+    {
+        "ques": "What is the purpose of the 'deferred' keyword in Dart?",
+        "options": ["To lazily load a library", "To declare an asynchronous function", "To delay a variable initialization", "To defer the execution of a loop"]
+    },
+    {
+        "ques": "How do you declare a mixin in Dart?",
+        "options": ["mixin MixinName", "with MixinName", "mix MixinName", "include MixinName"]
+    },
+    {
+        "ques": "What is the output type of a function that returns a Future in Dart?",
+        "options": ["Future<T>", "T", "Async<T>", "Promise<T>"]
+    },
+    {
+        "ques": "How do you specify that a class implements an interface in Dart?",
+        "options": ["implements", "extends", "with", "inherit"]
+    },
+    {
+        "ques": "What is the symbol for the cascade operator in Dart?",
+        "options": ["..", "...", "::", "=>"]
+    },
+    {
+        "ques": "Which method is used to remove whitespace from both ends of a string in Dart?",
+        "options": ["trim()", "strip()", "clean()", "removeSpaces()"]
+    },
+    {
+        "ques": "What is the purpose of the 'super' keyword in Dart?",
+        "options": ["To call the superclass's constructor", "To declare a superclass", "To override a method", "To create a subclass"]
+    },
+    {
+        "ques": "How do you generate a random number in Dart?",
+        "options": ["Random().nextInt(max)", "Math.random()", "Number.random()", "Random.next(max)"]
+    },
+    {
+        "ques": "Which keyword is used to define a factory constructor in Dart?",
+        "options": ["factory", "construct", "create", "make"]
+    },
+    {
+        "ques": "How do you define a getter in Dart?",
+        "options": ["get propertyName => value;", "propertyName get => value;", "getProperty() => value;", "define get propertyName => value;"]
+    },
+    {
+        "ques": "How do you define a setter in Dart?",
+        "options": ["set propertyName(value) { ... }", "propertyName set(value) { ... }", "setProperty(value) { ... }", "define set propertyName(value) { ... }"]
+    },
+    {
+        "ques": "What is the output of the expression '5 ~/ 2' in Dart?",
+        "options": ["2", "2.5", "3", "4"]
+    },
+    {
+        "ques": "How do you create a single-line comment in Dart?",
+        "options": ["// comment", "# comment", "-- comment", "/ comment"]
+    },
+    {
+        "ques": "How do you create a multi-line comment in Dart?",
+        "options": ["/* comment */", "// comment //", "/* comment //", "/ comment /"]
+    },
+    {
+        "ques": "How do you represent a Unicode character in a Dart string?",
+        "options": ["\\u{XXXX}", "\\UXXXX", "\\uXXXX", "\\u-XXXX"]
+    },
+    {
+        "ques": "Which method is used to get the length of a list in Dart?",
+        "options": ["length", "size", "count", "len"]
+    },
+    {
+        "ques": "How do you append an item to a list in Dart?",
+        "options": ["list.add(item)", "list.append(item)", "list.push(item)", "list.insert(item)"]
+    },
+    {
+        "ques": "How do you declare a generic class in Dart?",
+        "options": ["class ClassName<T>", "class ClassName generic T", "class ClassName type T", "class ClassName[T]"]
+    },
+    {
+        "ques": "Which keyword is used to create a stream in Dart?",
+        "options": ["Stream", "Flow", "Channel", "DataStream"]
+    },
+    {
+        "ques": "What is the function of the 'await' keyword in Dart?",
+        "options": ["To pause execution until a future completes", "To mark a function as asynchronous", "To handle errors in asynchronous code", "To define a callback function"]
+    },
+    {
+        "ques": "How do you make a class immutable in Dart?",
+        "options": ["By making all fields final", "By using the 'const' keyword for the class", "By using the 'immutable' keyword", "By using the 'readonly' keyword"]
+    },
+    {
+        "ques": "What is the result of the expression '2 << 3' in Dart?",
+        "options": ["16", "8", "6", "1"]
+    },
+    {
+        "ques": "How do you declare a multiline string in Dart?",
+        "options": ["Using triple quotes", "Using backticks", "Using double backslashes", "Using a combination of single and double quotes"]
+    },
+    {
+        "ques": "Which Dart keyword is used to handle asynchronous errors?",
+        "options": ["catch", "error", "handle", "exception"]
+    },
+    {
+        "ques": "How do you make a deep copy of an object in Dart?",
+        "options": ["Implement a clone method", "Use the copy constructor", "Use the deepCopy method", "Use the Object.clone method"]
+    },
+    {
+        "ques": "Which Dart operator is used for modulo operation?",
+        "options": ["%", "&", "//", "mod"]
+    },
+    {
+        "ques": "How do you convert a string to a double in Dart?",
+        "options": ["double.parse()", "String.toDouble()", "double.convert()", "parseDouble()"]
+    },
+    {
+        "ques": "What is the difference between '==' and '===' in Dart?",
+        "options": ["Dart does not have '==='", "'==' checks value, '===' checks type", "'==' checks reference, '===' checks value", "'==' and '===' are the same"]
+    },
+    {
+        "ques": "Which method is used to check if a map contains a key in Dart?",
+        "options": ["containsKey()", "hasKey()", "keyExists()", "existsKey()"]
+    },
+    {
+        "ques": "How do you define a nullable type in Dart?",
+        "options": ["By adding a '?' after the type", "By adding a '*' after the type", "By adding a '!' after the type", "By using the 'nullable' keyword"]
+    },
+    {
+        "ques": "How do you create a singleton class in Dart?",
+        "options": ["Using a private constructor and a static instance", "Using the singleton keyword", "By declaring the class as static", "Using the const keyword"]
+    },
+    {
+        "ques": "How do you measure execution time in Dart?",
+        "options": ["Using the Stopwatch class", "Using the Timer class", "Using the TimeSpan class", "Using the Clock class"]
+    },
+    {
+        "ques": "Which Dart package is used for unit testing?",
+        "options": ["test", "unittest", "mockito", "junit"]
+    },
+    {
+        "ques": "What does the '??=' operator do in Dart?",
+        "options": ["Assigns a value if the variable is null", "Compares two nullable values", "Checks for null and throws an error", "Combines two nullable values"]
+    },
+    {
+        "ques": "How do you remove all elements from a list in Dart?",
+        "options": ["clear()", "removeAll()", "deleteAll()", "empty()"]
+    },
+    {
+        "ques": "What is the purpose of the 'is' keyword in Dart?",
+        "options": ["To check the type of an object", "To assign a value", "To create an instance", "To define a variable"]
+    },
+    {
+        "ques": "How do you iterate over a map in Dart?",
+        "options": ["Using forEach()", "Using for-in", "Using map()", "Using each()"]
+    },
+    {
+        "ques": "How do you add all elements of one list to another in Dart?",
+        "options": ["addAll()", "appendAll()", "combine()", "merge()"]
+    },
+    {
+        "ques": "What is the return type of the toString() method in Dart?",
+        "options": ["String", "Object", "dynamic", "void"]
+    },
+    {
+        "ques": "Which function is used to convert a map to a JSON string in Dart?",
+        "options": ["jsonEncode()", "mapToJson()", "toJsonString()", "mapEncode()"]
+    },
+    {
+        "ques": "How do you declare a raw string in Dart?",
+        "options": ["By prefixing the string with 'r'", "By prefixing the string with '@'", "By using triple quotes", "By using backticks"]
+    },
+    {
+        "ques": "How do you check if a list is empty in Dart?",
+        "options": ["isEmpty", "length == 0", "size == 0", "isBlank"]
+    },
+    {
+        "ques": "How do you create a future that completes with an error in Dart?",
+        "options": ["Future.error()", "Future.fail()", "Future.exception()", "Future.reject()"]
+    },
+    {
+        "ques": "Which Dart collection maintains insertion order?",
+        "options": ["LinkedHashMap", "HashMap", "Set", "Map"]
+    },
+    {
+        "ques": "How do you define an empty set in Dart?",
+        "options": ["Set()", "Set.empty()", "new Set()", "Set{}"]
+    },
+    {
+        "ques": "What is the purpose of the 'deferred' keyword in Dart?",
+        "options": ["To lazily load a library", "To declare a future variable", "To mark a function as asynchronous", "To define a constant"]
+    },
+    {
+        "ques": "Which method is used to add an element at a specific index in a list in Dart?",
+        "options": ["insert()", "addAt()", "putAt()", "add()"]
+    },
+    {
+        "ques": "How do you access the keys of a map in Dart?",
+        "options": ["map.keys", "map.getKeys()", "map.keySet()", "map.allKeys()"]
+    },
+    {
+        "ques": "Which method is used to remove an item from a set in Dart?",
+        "options": ["remove()", "delete()", "discard()", "drop()"]
+    },
+    {
+        "ques": "How do you check if a map is empty in Dart?",
+        "options": ["map.isEmpty", "map == {}", "map.size == 0", "map.isBlank"]
+    },
+    {
+        "ques": "What is the result of the expression '5 % 2' in Dart?",
+        "options": ["1", "2.5", "0", "2"]
+    },
+    {
+        "ques": "Which Dart type is used for arbitrary-precision integers?",
+        "options": ["BigInt", "int", "num", "double"]
+    },
+    {
+        "ques": "How do you concatenate two lists in Dart?",
+        "options": ["list1.addAll(list2)", "list1.concat(list2)", "list1.append(list2)", "list1 + list2"]
+    },
+    {
+        "ques": "What is the result of the expression 'null ?? 5' in Dart?",
+        "options": ["5", "null", "undefined", "error"]
+    },
+    {
+        "ques": "How do you perform integer division in Dart?",
+        "options": ["~/", "/", "%", "//"]
+    },
+    {
+        "ques": "Which keyword is used to declare an immutable variable in Dart?",
+        "options": ["final", "const", "immutable", "static"]
+    },
+    {
+        "ques": "What is the result of the expression '3 + 2 * 4' in Dart?",
+        "options": ["11", "20", "14", "17"]
+    },
+    {
+        "ques": "How do you format a string in Dart?",
+        "options": ["Using string interpolation with '\$'", "Using printf()", "Using format()", "Using StringBuilder()"]
+    },
+    {
+        "ques": "How do you create a set from a list in Dart?",
+        "options": ["Set.from(list)", "Set.of(list)", "Set.toSet(list)", "Set(list)"]
+    },
+    {
+        "ques": "How do you declare a top-level constant in Dart?",
+        "options": ["const", "final", "static const", "const static"]
+    },
+    {
+        "ques": "Which method is used to convert a list to a map in Dart?",
+        "options": ["asMap()", "toMap()", "convertToMap()", "mapify()"]
+    },
+    {
+        "ques": "How do you define an optional parameter in Dart?",
+        "options": ["Using square brackets", "Using curly braces", "Using parentheses", "Using the 'optional' keyword"]
+    },
+    {
+        "ques": "Which method is used to check if a list contains an element in Dart?",
+        "options": ["contains()", "includes()", "has()", "exists()"]
+    },
+    {
+        "ques": "How do you declare a function that returns a Future in Dart?",
+        "options": ["Future<int> functionName()", "int functionName() async", "Future functionName() async", "async Future<int> functionName()"]
+    },
+    {
+        "ques": "Which Dart collection allows duplicate values?",
+        "options": ["List", "Set", "Map", "Queue"]
+    },
+    {
+        "ques": "How do you convert a string to uppercase in Dart?",
+        "options": ["toUpperCase()", "toUpper()", "uppercase()", "makeUpperCase()"]
+    },
+    {
+        "ques": "What is the purpose of the 'rethrow' keyword in Dart?",
+        "options": ["To propagate an error up the call stack", "To handle an error", "To ignore an error", "To catch an error"]
+    },
+    {
+        "ques": "Which function is used to encode JSON in Dart?",
+        "options": ["jsonEncode()", "encodeJson()", "toJson()", "stringify()"]
+    },
+    {
+        "ques": "How do you create a fixed-length list in Dart?",
+        "options": ["List<int>.filled(length, 0)", "List<int>(length)", "List<int>.of(length)", "List<int>.from(length)"]
+    },
+    {
+        "ques": "How do you perform a type check in Dart?",
+        "options": ["Using the 'is' keyword", "Using the 'as' keyword", "Using the 'typeof' keyword", "Using the 'instanceof' keyword"]
+    },
+    {
+        "ques": "What does the '!' operator signify in Dart?",
+        "options": ["Non-null assertion", "Logical NOT", "Type check", "Bitwise NOT"]
+    },
+    {
+        "ques": "How do you define a private method in Dart?",
+        "options": ["With an underscore prefix", "With the 'private' keyword", "With the 'protected' keyword", "With the 'internal' keyword"]
+    },
+    {
+        "ques": "Which method is used to find the index of an element in a list in Dart?",
+        "options": ["indexOf()", "findIndex()", "search()", "positionOf()"]
+    },
+    {
+        "ques": "How do you create a multiline string in Dart?",
+        "options": ["Using triple quotes", "Using double quotes", "Using backticks", "Using parentheses"]
+    },
+    {
+        "ques": "What is the purpose of the 'yield' keyword in Dart?",
+        "options": ["To return a value from a generator function", "To pause execution of a function", "To terminate a function", "To handle an exception"]
+    },
+    {
+        "ques": "How do you specify default values for named parameters in Dart?",
+        "options": ["Using a colon followed by the value", "Using an equals sign", "Using parentheses", "Using the 'default' keyword"]
+    },
+    {
+        "ques": "What is the purpose of the '??' operator in Dart?",
+        "options": ["To provide a default value if the left operand is null", "To compare two nullable values", "To concatenate two strings", "To check for equality"]
+    },
+    {
+        "ques": "How do you create an empty map in Dart?",
+        "options": ["{}", "Map()", "HashMap()", "new Map()"]
+    },
+    {
+        "ques": "Which method is used to add multiple elements to a set in Dart?",
+        "options": ["addAll()", "insertAll()", "appendAll()", "putAll()"]
+    },
+    {
+        "ques": "How do you remove an element from a list by value in Dart?",
+        "options": ["remove()", "delete()", "discard()", "removeAt()"]
+    },
+    {
+        "ques": "Which operator is used for logical AND in Dart?",
+        "options": ["&&", "&", "and", "&&&"]
+    },
+    {
+        "ques": "What does the 'as' keyword do in Dart?",
+        "options": ["Performs type casting", "Checks for null", "Performs type checking", "Creates an alias"]
+    },
+    {
+        "ques": "How do you convert a double to an integer in Dart?",
+        "options": ["toInt()", "convertToInt()", "parseToInt()", "double.toInt()"]
+    },
+    {
+        "ques": "Which Dart collection is unordered and does not allow duplicate elements?",
+        "options": ["Set", "List", "Map", "HashSet"]
+    },
+    {
+        "ques": "What does the 'in' keyword do in Dart?",
+        "options": ["Checks if a collection contains a specified element", "Performs a bitwise AND operation", "Performs a logical NOT operation", "Defines an alias"]
+    },
+    {
+        "ques": "How do you iterate over the keys and values of a map in Dart?",
+        "options": ["forEach()", "for-in loop", "iterate()", "map()"]
+    },
+    {
+        "ques": "What is the purpose of the 'sync' keyword in Dart?",
+        "options": ["To indicate that a function is synchronous", "To synchronize threads", "To handle asynchronous operations", "To define a synchronized block"]
+    },
+    {
+        "ques": "Which method is used to sort a list in Dart?",
+        "options": ["sort()", "order()", "arrange()", "group()"]
+    },
+    {
+        "ques": "How do you convert a string to lowercase in Dart?",
+        "options": ["toLowerCase()", "toLower()", "lowercase()", "makeLowerCase()"]
+    },
+    {
+        "ques": "What does the 'cascade notation (..)' do in Dart?",
+        "options": ["Allows you to perform a sequence of operations on the same object", "Performs bitwise operations", "Performs logical operations", "Performs arithmetic operations"]
+    },
+    {
+        "ques": "How do you check if a number is finite in Dart?",
+        "options": ["isFinite", "checkFinite()", "finite()", "isNumber()"]
+    },
+    {
+        "ques": "Which Dart collection is indexed and allows duplicate elements?",
+        "options": ["List", "Set", "Map", "ArrayList"]
+    },
+    {
+        "ques": "What is the purpose of the 'assert' keyword in Dart?",
+        "options": ["To validate assumptions during development", "To handle exceptions", "To define an asynchronous function", "To debug asynchronous code"]
+    },
+    {
+        "ques": "How do you get the current timestamp in Dart?",
+        "options": ["DateTime.now()", "getCurrentTime()", "getTimestamp()", "currentTime()"]
+    },
+    {
+        "ques": "What is the function of the 'async' keyword in Dart?",
+        "options": ["To mark a function as asynchronous", "To perform asynchronous operations", "To define an asynchronous generator", "To handle exceptions asynchronously"]
+    },
+    {
+        "ques": "How do you create an immutable list in Dart?",
+        "options": ["List<int>.unmodifiable([1, 2, 3])", "const List<int>([1, 2, 3])", "final List<int>([1, 2, 3])", "immutable List<int>([1, 2, 3])"]
+    },
+    {
+        "ques": "What is the result of the expression 'null ??= 5' in Dart?",
+        "options": ["5", "null", "undefined", "error"]
+    },
+    {
+        "ques": "How do you convert a string to an integer or null if conversion fails in Dart?",
+        "options": ["int.tryParse()", "parseInt()", "convertToInt()", "string.toIntOrNull()"]
+    },
+    {
+        "ques": "Which operator is used for logical OR in Dart?",
+        "options": ["||", "|", "or", "|||"]
+    },
+    {
+        "ques": "What does the 'yield*' keyword do in Dart?",
+        "options": ["Yields each value from an iterable", "Yields a single value", "Yields an error", "Yields a future"]
+    },
+    {
+        "ques": "How do you convert an object to a JSON string in Dart?",
+        "options": ["jsonEncode()", "encodeJson()", "toJson()", "stringify()"]
+    },
+    {
+        "ques": "What is the purpose of the 'late' keyword in Dart?",
+        "options": ["To declare a non-nullable variable that is initialized later", "To declare a lazy variable", "To indicate a late-binding function", "To handle late exceptions"]
+    },
+    {
+        "ques": "How do you convert a map to a list in Dart?",
+        "options": ["map.values.toList()", "map.toList()", "list.fromMap(map)", "convertToList(map)"]
+    },
+    {
+        "ques": "What is the purpose of the 'with' keyword in Dart?",
+        "options": ["To include a mixin in a class", "To import a library", "To extend a class", "To define a generic type"]
+    },
+    {
+        "ques": "Which Dart operator is used for exponentiation?",
+        "options": ["^", "**", "^^", "//"]
+    },
+    {
+        "ques": "How do you convert a list to a set in Dart?",
+        "options": ["Set.from(list)", "list.toSet()", "convertToSet(list)", "set(list)"]
+    },
+    {
+        "ques": "What does the 'await' keyword do in Dart?",
+        "options": ["Pauses execution until a future completes", "Marks a function as asynchronous", "Handles exceptions asynchronously", "Returns a value from an asynchronous function"]
+    },
+    {
+        "ques": "Which method is used to join elements of a list into a string in Dart?",
+        "options": ["join()", "concat()", "merge()", "combine()"]
+    },
+    {
+        "ques": "How do you declare a constant variable in Dart?",
+        "options": ["Using the 'const' keyword", "Using the 'final' keyword", "Using the 'static' keyword", "Using the 'immutable' keyword"]
+    },
+    {
+        "ques": "What is the purpose of the 'static' keyword in Dart?",
+        "options": ["To create class-level variables and methods", "To define a constant value", "To handle exceptions", "To mark a class as immutable"]
+    },
+    {
+        "ques": "Which method is used to parse a JSON string into a Dart object?",
+        "options": ["jsonDecode()", "parseJson()", "decodeJson()", "fromJson()"]
+    },
+    {
+        "ques": "How do you handle asynchronous operations in Dart?",
+        "options": ["Using async and await", "Using promises", "Using callbacks", "Using futures"]
+    },
+    {
+        "ques": "What is the purpose of the 'is!' keyword in Dart?",
+        "options": ["Checks if an object is not of a certain type", "Performs a bitwise operation", "Performs a logical NOT operation", "Defines a negation"]
+    },
+    {
+        "ques": "How do you convert a string to lowercase without creating a new string in Dart?",
+        "options": ["toLowerCase()", "toLowerCase() {}", "toLowerCase()", "toLowerCase().toLower()"]
+    },
+    {
+        "ques": "How do you remove duplicates from a list in Dart?",
+        "options": ["list.toSet().toList()", "list.removeDuplicates()", "list.removeDuplicates().toList()", "list.unique()"]
+    },
+    {
+        "ques": "Which Dart collection is used to store key-value pairs?",
+        "options": ["Map", "List", "Set", "HashMap"]
+    },
+    {
+        "ques": "What is the purpose of the 'async*' keyword in Dart?",
+        "options": ["To create an asynchronous generator function", "To define a synchronous generator function", "To handle asynchronous exceptions", "To mark a function as asynchronous"]
+    },
+    {
+        "ques": "How do you access the last element of a list in Dart?",
+        "options": ["list.last", "list.end", "list.lastElement", "list.tail"]
+    },
+    {
+        "ques": "What does the '??' operator do in Dart?",
+        "options": ["Provides a default value if the left operand is null", "Compares two values", "Performs a logical operation", "Throws an error if the left operand is null"]
+    },
+    {
+        "ques": "Which method is used to convert an integer to a string in Dart?",
+        "options": ["toString()", "convertToString()", "intToString()", "stringify()"]
+    },
+    {
+        "ques": "How do you define a constant constructor in Dart?",
+        "options": ["const ClassName()", "ClassName const()", "final ClassName()", "const constructor ClassName()"]
+    },
+    {
+        "ques": "What is the purpose of the 'throw' keyword in Dart?",
+        "options": ["To explicitly throw an exception", "To catch an exception", "To ignore an exception", "To handle an exception"]
+    },
+    {
+        "ques": "Which operator is used for integer division in Dart?",
+        "options": ["~/", "/", "%", "//"]
+    },
+    {
+        "ques": "How do you check if a set contains an element in Dart?",
+        "options": ["contains()", "includes()", "has()", "exists()"]
+    },
+    {
+        "ques": "What is the purpose of the 'await for' loop in Dart?",
+        "options": ["To iterate over a stream", "To wait for asynchronous operations", "To handle asynchronous exceptions", "To define a generator function"]
+    },
+    {
+        "ques": "How do you convert a list to a JSON string in Dart?",
+        "options": ["jsonEncode()", "convertToJson()", "list.toJson()", "stringify()"]
+    },
+    {
+        "ques": "Which Dart collection is used for FIFO (First-In-First-Out) data structure?",
+        "options": ["Queue", "List", "Set", "Deque"]
+    },
+    {
+        "ques": "What is the purpose of the 'abstract' keyword in Dart?",
+        "options": ["To define abstract classes and methods", "To make a class immutable", "To handle exceptions", "To create nested classes"]
+    },
+    {
+        "ques": "How do you create a shallow copy of a list in Dart?",
+        "options": ["List.from(originalList)", "originalList.clone()", "List.clone(originalList)", "copyList(originalList)"]
+    },
+    {
+        "ques": "What does the 'sync*' keyword do in Dart?",
+        "options": ["Creates a synchronous generator function", "Creates an asynchronous generator function", "Handles synchronous exceptions", "Marks a function as synchronous"]
+    },
+    {
+        "ques": "How do you check if a string is empty in Dart?",
+        "options": ["isEmpty", "length == 0", "size == 0", "isBlank"]
+    },
+    {
+        "ques": "What is the purpose of the 'rethrow' keyword in Dart?",
+        "options": ["To rethrow the current exception", "To throw a new exception", "To catch an exception", "To ignore an exception"]
+    },
+    {
+        "ques": "How do you create a constant map in Dart?",
+        "options": ["const {'key': 'value'}", "{'key': 'value'}", "Map.constant({'key': 'value'})", "Map{'key': 'value'}"]
+    },
+    {
+        "ques": "Which operator is used for bitwise AND in Dart?",
+        "options": ["&", "&&", "and", "&|"]
+    },
+    {
+        "ques": "How do you convert a string to an integer in Dart, handling errors?",
+        "options": ["int.tryParse()", "parseToInt()", "convertToInt()", "string.toInt()"]
+    },
+    {
+        "ques": "What does the 'typedef' keyword do in Dart?",
+        "options": ["Defines a function type", "Defines a typedef function", "Defines a generic type", "Defines a lambda function"]
+    },
+    {
+        "ques": "Which method is used to shuffle a list in Dart?",
+        "options": ["shuffle()", "randomize()", "mix()", "random.shuffle()"]
+    },
+    {
+        "ques": "How do you convert a list to a set in Dart, removing duplicates?",
+        "options": ["list.toSet()", "Set.from(list)", "list.convertToSet()", "set(list)"]
+    },
+    {
+        "ques": "What is the purpose of the 'is!' operator in Dart?",
+        "options": ["Checks if an object is not of a certain type", "Performs a bitwise operation", "Performs a logical NOT operation", "Defines a negation"]
+    },
+    {
+        "ques": "Which method is used to concatenate strings in Dart?",
+        "options": ["'+' operator", "concat()", "append()", "'&' operator"]
+    },
+    {
+        "ques": "How do you declare a top-level variable in Dart?",
+        "options": ["Using 'var' or specific type", "Using 'const'", "Inside a class", "Using 'final'"]
+    },
+    {
+        "ques": "What does the 'late' keyword indicate in Dart?",
+        "options": ["A variable is initialized after declaration", "A variable can change its value", "A variable is constant", "A variable is nullable"]
+    },
+    {
+        "ques": "Which operator is used for exponentiation in Dart?",
+        "options": ["^", "**", "^^", "//"]
+    },
+    {
+        "ques": "How do you declare an optional parameter with a default value in Dart?",
+        "options": ["Using '=' after the parameter", "Using '?' before the parameter", "Using 'optional' keyword", "Using '{}' around the parameter"]
+    },
+    {
+        "ques": "What is the purpose of the 'assert' keyword in Dart?",
+        "options": ["To validate assumptions during development", "To handle exceptions", "To ignore exceptions", "To debug asynchronous code"]
+    },
+    {
+        "ques": "How do you create an empty list in Dart?",
+        "options": ["[]", "List()", "new List()", "List.empty()"]
+    },
+    {
+        "ques": "Which method is used to find the index of an element in a list in Dart?",
+        "options": ["indexOf()", "findIndex()", "search()", "positionOf()"]
+    },
+    {
+        "ques": "What does the 'yield*' keyword do in Dart?",
+        "options": ["Yields each value from an iterable", "Yields a single value", "Yields an error", "Yields a future"]
+    },
+    {
+        "ques": "How do you convert a string to uppercase in Dart, creating a new string?",
+        "options": ["toUpperCase()", "toUpper()", "uppercase()", "makeUpperCase()"]
+    },
+    {
+        "ques": "Which Dart collection is used for LIFO (Last-In-First-Out) data structure?",
+        "options": ["Queue", "List", "Set", "Deque"]
+    },
+    {
+        "ques": "What is the purpose of the 'sync*' keyword in Dart?",
+        "options": ["Creates a synchronous generator function", "Creates an asynchronous generator function", "Handles synchronous exceptions", "Marks a function as synchronous"]
+    },
+    {
+        "ques": "How do you iterate over the keys and values of a map in Dart?",
+        "options": ["forEach()", "for-in loop", "iterate()", "map()"]
+    },
+    {
+        "ques": "What is the purpose of the 'deferred' keyword in Dart?",
+        "options": ["To lazily load a library", "To declare a future variable", "To mark a function as asynchronous", "To define a constant"]
+    },
+    {
+        "ques": "Which Dart operator is used for bitwise OR?",
+        "options": ["|", "||", "&", "&|"]
+    },
+    {
+        "ques": "How do you check if a list is empty in Dart?",
+        "options": ["isEmpty", "length == 0", "size == 0", "isBlank"]
+    },
+    {
+        "ques": "Which Dart collection is used to store elements in insertion order?",
+        "options": ["LinkedHashMap", "HashMap", "Set", "Map"]
+    },
+    {
+        "ques": "What is the purpose of the 'async*' keyword in Dart?",
+        "options": ["To create an asynchronous generator function", "To define a synchronous generator function", "To handle asynchronous exceptions", "To mark a function as asynchronous"]
+    },
+    {
+        "ques": "How do you access the last element of a list in Dart?",
+        "options": ["list.last", "list.end", "list.lastElement", "list.tail"]
+    },
+    {
+        "ques": "What does the '??' operator do in Dart?",
+        "options": ["Provides a default value if the left operand is null", "Compares two values", "Performs a logical operation", "Throws an error if the left operand is null"]
+    },
+    {
+        "ques": "Which method is used to convert an integer to a string in Dart?",
+        "options": ["toString()", "convertToString()", "intToString()", "stringify()"]
+    },
+    {
+        "ques": "How do you declare a constant constructor in Dart?",
+        "options": ["const ClassName()", "ClassName const()", "final ClassName()", "const constructor ClassName()"]
+    },
+    {
+        "ques": "What is the purpose of the 'throw' keyword in Dart?",
+        "options": ["To explicitly throw an exception", "To catch an exception", "To ignore an exception", "To handle an exception"]
+    },
+    {
+        "ques": "Which operator is used for integer division in Dart?",
+        "options": ["~/", "/", "%", "//"]
+    },
+    {
+        "ques": "How do you check if a set contains an element in Dart?",
+        "options": ["contains()", "includes()", "has()", "exists()"]
+    },
+    {
+        "ques": "What is the purpose of the 'await for' loop in Dart?",
+        "options": ["To iterate over a stream", "To wait for asynchronous operations", "To handle asynchronous exceptions", "To define a generator function"]
+    },
+    {
+        "ques": "How do you convert a list to a JSON string in Dart?",
+        "options": ["jsonEncode()", "convertToJson()", "list.toJson()", "stringify()"]
+    },
+    {
+        "ques": "Which Dart collection is used for FIFO (First-In-First-Out) data structure?",
+        "options": ["Queue", "List", "Set", "Deque"]
+    },
+    {
+        "ques": "What is the purpose of the 'abstract' keyword in Dart?",
+        "options": ["To define abstract classes and methods", "To make a class immutable", "To handle exceptions", "To create nested classes"]
+    },
+    {
+        "ques": "How do you create a shallow copy of a list in Dart?",
+        "options": ["List.from(originalList)", "originalList.clone()", "List.clone(originalList)", "copyList(originalList)"]
+    },
+    {
+        "ques": "What does the 'sync*' keyword do in Dart?",
+        "options": ["Creates a synchronous generator function", "Creates an asynchronous generator function", "Handles synchronous exceptions", "Marks a function as synchronous"]
+    },
+    {
+        "ques": "How do you check if a string is empty in Dart?",
+        "options": ["isEmpty", "length == 0", "size == 0", "isBlank"]
+    },
+    {
+        "ques": "What is the purpose of the 'rethrow' keyword in Dart?",
+        "options": ["To rethrow the current exception", "To throw a new exception", "To catch an exception", "To ignore an exception"]
+    },
+    {
+        "ques": "How do you create a constant map in Dart?",
+        "options": ["const {'key': 'value'}", "{'key': 'value'}", "Map.constant({'key': 'value'})", "Map{'key': 'value'}"]
+    },
+    {
+        "ques": "Which operator is used for bitwise AND in Dart?",
+        "options": ["&", "&&", "and", "&|"]
+    },
+    {
+        "ques": "How do you convert a string to an integer in Dart, handling errors?",
+        "options": ["int.tryParse()", "parseToInt()", "convertToInt()", "string.toInt()"]
+    },
+    {
+        "ques": "What does the 'typedef' keyword do in Dart?",
+        "options": ["Defines a function type", "Defines a typedef function", "Defines a generic type", "Defines a lambda function"]
+    },
+    {
+        "ques": "Which method is used to shuffle a list in Dart?",
+        "options": ["shuffle()", "randomize()", "mix()", "random.shuffle()"]
+    },
+    {
+        "ques": "How do you convert a list to a set in Dart, removing duplicates?",
+        "options": ["list.toSet()", "Set.from(list)", "list.convertToSet()", "set(list)"]
+    },
+    {
+        "ques": "What is the purpose of the 'is!' operator in Dart?",
+        "options": ["Checks if an object is not of a certain type", "Performs a bitwise operation", "Performs a logical NOT operation", "Defines a negation"]
+    },
+    {
+        "ques": "Which method is used to concatenate strings in Dart?",
+        "options": ["'+' operator", "concat()", "append()", "'&' operator"]
+    },
+    {
+        "ques": "How do you declare a top-level variable in Dart?",
+        "options": ["Using 'var' or specific type", "Using 'const'", "Inside a class", "Using 'final'"]
+    },
+    {
+        "ques": "What does the 'late' keyword indicate in Dart?",
+        "options": ["A variable is initialized after declaration", "A variable can change its value", "A variable is constant", "A variable is nullable"]
+    },
+    {
+        "ques": "Which operator is used for exponentiation in Dart?",
+        "options": ["^", "**", "^^", "//"]
+    },
+    {
+        "ques": "How do you declare an optional parameter with a default value in Dart?",
+        "options": ["Using '=' after the parameter", "Using '?' before the parameter", "Using 'optional' keyword", "Using '{}' around the parameter"]
+    },
+    {
+        "ques": "What is the purpose of the 'assert' keyword in Dart?",
+        "options": ["To validate assumptions during development", "To handle exceptions", "To ignore exceptions", "To debug asynchronous code"]
+    },
+    {
+        "ques": "How do you create an empty list in Dart?",
+        "options": ["[]", "List()", "new List()", "List.empty()"]
+    },
+    {
+        "ques": "Which method is used to find the index of an element in a list in Dart?",
+        "options": ["indexOf()", "findIndex()", "search()", "positionOf()"]
+    },
+    {
+        "ques": "What does the 'yield*' keyword do in Dart?",
+        "options": ["Yields each value from an iterable", "Yields a single value", "Yields an error", "Yields a future"]
+    },
+    {
+        "ques": "How do you convert a string to uppercase in Dart, creating a new string?",
+        "options": ["toUpperCase()", "toUpper()", "uppercase()", "makeUpperCase()"]
+    },
+    {
+        "ques": "Which Dart collection is used for LIFO (Last-In-First-Out) data structure?",
+        "options": ["Queue", "List", "Set", "Deque"]
+    },
+    {
+        "ques": "What is the purpose of the 'sync*' keyword in Dart?",
+        "options": ["Creates a synchronous generator function", "Creates an asynchronous generator function", "Handles synchronous exceptions", "Marks a function as synchronous"]
+    },
+    {
+        "ques": "How do you iterate over the keys and values of a map in Dart?",
+        "options": ["forEach()", "for-in loop", "iterate()", "map()"]
+    },
+    {
+        "ques": "What is the purpose of the 'deferred' keyword in Dart?",
+        "options": ["To lazily load a library", "To declare a future variable", "To mark a function as asynchronous", "To define a constant"]
+    },
+    {
+        "ques": "Which Dart operator is used for bitwise OR?",
+        "options": ["|", "||", "&", "&|"]
+    },
 ]
