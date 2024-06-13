@@ -32,8 +32,8 @@
         "options": ["True", "False", "condition", "result"]
     },
     {
-        "code": "void main() {\n  var name = 'John';\n  var greeting = 'Hello, \$name!';\n  print(greeting);\n}",
-        "options": ["Hello, John!", "Hello, \$name!", "John", "greeting"]
+        "code": "void main() {\n  var name = 'John';\n  var greeting = 'Hello, $name!';\n  print(greeting);\n}",
+        "options": ["Hello, John!", "Hello, $name!", "John", "greeting"]
     },
     {
         "code": "void main() {\n  var numbers = [1, 2, 3, 4, 5];\n  var sum = 0;\n  for (var num in numbers) {\n    sum += num;\n  }\n  print(sum);\n}",
@@ -44,8 +44,8 @@
         "options": ["3", "10", "0", "5"]
     },
     {
-        "code": "void main() {\n  var name = 'Alice';\n  var greeting = 'Hello, \${name.toUpperCase()}!';\n  print(greeting);\n}",
-        "options": ["Hello, ALICE!", "Hello, \${name.toUpperCase()}!", "Alice", "greeting"]
+        "code": "void main() {\n  var name = 'Alice';\n  var greeting = 'Hello, ${name.toUpperCase()}!';\n  print(greeting);\n}",
+        "options": ["Hello, ALICE!", "Hello, ${name.toUpperCase()}!", "Alice", "greeting"]
     },
     {
         "code": "void main() {\n  var list = [1, 2, 3, 4, 5];\n  var filteredList = list.where((num) => num.isEven).toList();\n  print(filteredList.length);\n}",
@@ -509,7 +509,7 @@
     },
     {
         "ques": "How do you format a string in Dart?",
-        "options": ["Using string interpolation with '\$'", "Using printf()", "Using format()", "Using StringBuilder()"]
+        "options": ["Using string interpolation with '$'", "Using printf()", "Using format()", "Using StringBuilder()"]
     },
     {
         "ques": "How do you create a set from a list in Dart?",
