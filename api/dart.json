@@ -1,0 +1,82 @@
+[
+    {
+        "ques": "What is the main purpose of functions in Dart?",
+        "options": ["Modularity", "Encapsulation", "Inheritance", "Polymorphism"]
+    },
+    {
+        "ques": "Which collection in Dart does not allow duplicate elements?",
+        "options": ["Set", "List", "Map", "Tuple"]
+    },
+    {
+        "ques": "In Dart, which keyword is used to define a constructor of a class?",
+        "options": ["Constructor", "Class", "New", "Init"]
+    },
+    {
+        "ques": "What does the 'async' keyword signify in Dart?",
+        "options": ["Asynchronous operation", "Synchronous operation", "Concurrent operation", "Parallel operation"]
+    },
+    {
+        "ques": "What is the default value of a variable in Dart if it is declared without an explicit value and null safety is enabled?",
+        "options": ["null", "0", "undefined", "void"]
+    },
+    {
+        "ques": "Which Dart collection type is ordered and allows indexed access to its elements?",
+        "options": ["List", "Set", "Map", "Queue"]
+    },
+    {
+        "ques": "What is the keyword used to define a method that does not return a value in Dart?",
+        "options": ["void", "null", "none", "empty"]
+    },
+    {
+        "ques": "Which Dart feature ensures that a variable cannot contain null unless explicitly specified?",
+        "options": ["Null safety", "Type safety", "Memory safety", "Error safety"]
+    },
+    {
+        "ques": "What is the concept in Dart where one class acquires the properties and behaviors of another class?",
+        "options": ["Inheritance", "Composition", "Abstraction", "Polymorphism"]
+    },
+    {
+        "ques": "Which Dart collection type does not maintain any order of its elements?",
+        "options": ["Set", "List", "Map", "Queue"]
+    },
+    {
+        "ques": "In Dart, what keyword is used to define a function that doesn't return any value?",
+        "options": ["void", "none", "null", "empty"]
+    },
+    {
+        "ques": "Which Dart collection type allows keys and values to be associated with each other?",
+        "options": ["Map", "List", "Set", "Tuple"]
+    },
+    {
+        "ques": "What is the keyword used in Dart to implement inheritance between classes?",
+        "options": ["extends", "inherits", "implements", "derives"]
+    },
+    {
+        "ques": "What is the purpose of the 'await' keyword in Dart asynchronous programming?",
+        "options": ["Wait for asynchronous operation to complete", "Start asynchronous operation", "Handle errors in asynchronous operation", "Pause the current function execution"]
+    },
+    {
+        "ques": "Which Dart feature helps prevent null reference exceptions at runtime?",
+        "options": ["Null safety", "Type safety", "Error safety", "Memory safety"]
+    },
+    {
+        "ques": "In Dart, which collection type allows duplicate elements but does not guarantee their order?",
+        "options": ["Set", "List", "Map", "Queue"]
+    },
+    {
+        "ques": "What is the purpose of a constructor in Dart?",
+        "options": ["Initialize an object", "Define methods", "Create static variables", "Handle asynchronous operations"]
+    },
+    {
+        "ques": "Which Dart keyword is used to define a method that can be accessed without creating an instance of the class?",
+        "options": ["static", "final", "const", "var"]
+    },
+    {
+        "ques": "What does the 'late' keyword signify in Dart null safety?",
+        "options": ["Delayed initialization", "Early initialization", "Nullable initialization", "Constant initialization"]
+    },
+    {
+        "ques": "What is the primary advantage of using classes in Dart programming?",
+        "options": ["Code reusability", "Data manipulation", "Encapsulation and abstraction", "Exception handling"]
+    }
+]
