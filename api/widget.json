@@ -1,0 +1,782 @@
+[
+    {
+        "ques": "What widget is used to create an icon in Flutter?",
+        "options": ["Icon", "Text", "Container", "Column"]
+    },
+    {
+        "ques": "Which widget is used for creating a scrollable list of widgets?",
+        "options": ["ListView", "Row", "Stack", "AppBar"]
+    },
+    {
+        "ques": "What widget allows you to align its child within itself and optionally size itself based on the child's size?",
+        "options": ["Align", "Padding", "Margin", "Scaffold"]
+    },
+    {
+        "ques": "Which widget is used for displaying a piece of text?",
+        "options": ["Text", "Image", "Card", "Button"]
+    },
+    {
+        "ques": "What widget is used for a rectangular area of content in Flutter?",
+        "options": ["Container", "TextField", "GestureDetector", "Navigator"]
+    },
+    {
+        "ques": "Which widget is a container for other widgets and positions them relative to the edges of the container?",
+        "options": ["Stack", "Row", "Column", "Center"]
+    },
+    {
+        "ques": "What widget displays a box with a specified child and an optional border?",
+        "options": ["DecoratedBox", "RaisedButton", "Scaffold", "ClipOval"]
+    },
+    {
+        "ques": "Which widget helps in placing its children along a vertical axis?",
+        "options": ["Column", "Row", "Wrap", "ListTile"]
+    },
+    {
+        "ques": "What widget is used to detect gestures such as taps and swipes?",
+        "options": ["GestureDetector", "Slider", "AnimatedBuilder", "Container"]
+    },
+    {
+        "ques": "Which widget is used for creating an image in Flutter?",
+        "options": ["Image", "Text", "Icon", "Container"]
+    },
+    {
+        "ques": "Which widget is used for arranging widgets in a horizontal direction?",
+        "options": ["Row", "Column", "Flex", "Table"]
+    },
+    {
+        "ques": "What widget provides a placeholder for drawing during an animation?",
+        "options": ["AnimatedContainer", "FadeTransition", "Hero", "Placeholder"]
+    },
+    {
+        "ques": "Which widget displays its child in a specific aspect ratio?",
+        "options": ["AspectRatio", "SizedBox", "Padding", "Expanded"]
+    },
+    {
+        "ques": "What widget is typically used to display a brief message at the bottom of the screen?",
+        "options": ["SnackBar", "AlertDialog", "BottomSheet", "Toast"]
+    },
+    {
+        "ques": "Which widget is used to create a drop-down list in Flutter?",
+        "options": ["DropdownButton", "PopupMenuButton", "RadioListTile", "CheckBox"]
+    },
+    {
+        "ques": "What widget is used to create a material design card?",
+        "options": ["Card", "Container", "Column", "Stack"]
+    },
+    {
+        "ques": "Which widget is used for creating a floating action button?",
+        "options": ["FloatingActionButton", "RaisedButton", "FlatButton", "ButtonBar"]
+    },
+    {
+        "ques": "What widget provides a layout that can scroll vertically and horizontally?",
+        "options": ["SingleChildScrollView", "GridView", "ListView", "PageView"]
+    },
+    {
+        "ques": "Which widget is used to add padding to a widget?",
+        "options": ["Padding", "Margin", "Align", "Center"]
+    },
+    {
+        "ques": "What widget is used to switch between a dark and light theme?",
+        "options": ["ThemeSwitcher", "ThemeData", "Switch", "ToggleButtons"]
+    },
+    {
+        "ques": "Which widget is used to display a progress indicator?",
+        "options": ["CircularProgressIndicator", "LinearProgressIndicator", "RefreshIndicator", "Slider"]
+    },
+    {
+        "ques": "What widget is used for creating a multi-page application?",
+        "options": ["PageView", "TabBar", "Navigator", "Scaffold"]
+    },
+    {
+        "ques": "Which widget provides a way to switch between different screens?",
+        "options": ["Navigator", "TabBarView", "PageView", "BottomNavigationBar"]
+    },
+    {
+        "ques": "What widget displays a dialog box on the screen?",
+        "options": ["AlertDialog", "SnackBar", "ModalBottomSheet", "PopupMenuButton"]
+    },
+    {
+        "ques": "Which widget is used for creating an expandable list?",
+        "options": ["ExpansionTile", "ListTile", "GridTile", "Card"]
+    },
+    {
+        "ques": "What widget is used to display an image from the internet?",
+        "options": ["Image.network", "Image.asset", "Image.file", "Image.memory"]
+    },
+    {
+        "ques": "Which widget is used to overlay one widget on top of another?",
+        "options": ["Stack", "Container", "Row", "Column"]
+    },
+    {
+        "ques": "What widget is used to display a horizontal list of widgets?",
+        "options": ["ListView.builder", "Row", "GridView", "ListTile"]
+    },
+    {
+        "ques": "Which widget is used to display a grid of widgets?",
+        "options": ["GridView", "Table", "ListView", "Column"]
+    },
+    {
+        "ques": "What widget is used to create tabs in Flutter?",
+        "options": ["TabBar", "TabView", "BottomNavigationBar", "Drawer"]
+    },
+    {
+        "ques": "What widget is used to make a child partially transparent?",
+        "options": ["Opacity", "Visibility", "FadeTransition", "Transform"]
+    },
+    {
+        "ques": "Which widget provides a way to implement animations in Flutter?",
+        "options": ["AnimatedBuilder", "AnimatedContainer", "Hero", "FadeInImage"]
+    },
+    {
+        "ques": "What widget is used to draw a simple line or shape?",
+        "options": ["CustomPaint", "Canvas", "ClipPath", "Transform"]
+    },
+    {
+        "ques": "Which widget is used to create a linear layout along the main axis?",
+        "options": ["Flex", "Flow", "Align", "Column"]
+    },
+    {
+        "ques": "What widget is used to clip its child using a path?",
+        "options": ["ClipPath", "ClipRect", "ClipOval", "ClipRRect"]
+    },
+    {
+        "ques": "Which widget is used to show a quick info or actions when the user long-presses a widget?",
+        "options": ["Tooltip", "SnackBar", "AlertDialog", "PopupMenuButton"]
+    },
+    {
+        "ques": "What widget helps in creating a flexible layout in Flutter?",
+        "options": ["Flexible", "Expanded", "Container", "Spacer"]
+    },
+    {
+        "ques": "Which widget is used to display a widget with rounded corners?",
+        "options": ["ClipRRect", "BorderRadius", "ClipOval", "ShapeBorder"]
+    },
+    {
+        "ques": "What widget is used to display child widgets in a vertical or horizontal scrollable manner?",
+        "options": ["Scrollable", "CustomScrollView", "ListView", "GridView"]
+    },
+    {
+        "ques": "Which widget provides a way to animate between two values over a given duration?",
+        "options": ["TweenAnimationBuilder", "AnimatedOpacity", "AnimatedCrossFade", "AnimatedSwitcher"]
+    },
+    {
+        "ques": "What widget is used to arrange children in a two-dimensional array?",
+        "options": ["Table", "GridView", "Stack", "ListView"]
+    },
+    {
+        "ques": "Which widget is used to detect and respond to user gestures?",
+        "options": ["GestureDetector", "Listener", "MouseRegion", "RawGestureDetector"]
+    },
+    {
+        "ques": "What widget is used to create a visual indicator of a drag operation?",
+        "options": ["Draggable", "DragTarget", "LongPressDraggable", "GestureDetector"]
+    },
+    {
+        "ques": "Which widget is used to display a horizontal or vertical divider?",
+        "options": ["Divider", "SizedBox", "Container", "Padding"]
+    },
+    {
+        "ques": "What widget is used to create a page controller for a scrollable list of pages?",
+        "options": ["PageController", "ScrollController", "Navigator", "ScrollPhysics"]
+    },
+    {
+        "ques": "What widget is used to display an image from assets?",
+        "options": ["Image.asset", "Image.network", "Image.file", "Image.memory"]
+    },
+    {
+        "ques": "Which widget is used to create a fixed-size box?",
+        "options": ["SizedBox", "Container", "Align", "Padding"]
+    },
+    {
+        "ques": "What widget is used to wrap another widget with multiple other widgets?",
+        "options": ["MultiChildRenderObjectWidget", "SingleChildRenderObjectWidget", "Flex", "Container"]
+    },
+    {
+        "ques": "Which widget helps in laying out a series of widgets next to each other?",
+        "options": ["Row", "Column", "Wrap", "Stack"]
+    },
+    {
+        "ques": "What widget is used to create an offstage element in the tree?",
+        "options": ["Offstage", "Visibility", "Opacity", "Hidden"]
+    },
+    {
+        "ques": "Which widget is used to create a form in Flutter?",
+        "options": ["Form", "TextField", "Container", "Column"]
+    },
+    {
+        "ques": "What widget is used to create a button with an icon and a label?",
+        "options": ["IconButton", "FlatButton", "RaisedButton", "FloatingActionButton"]
+    },
+    {
+        "ques": "Which widget allows the user to select a date from a calendar?",
+        "options": ["DatePicker", "TimePicker", "CalendarView", "DateTimePicker"]
+    },
+    {
+        "ques": "What widget is used to create a scrollable list of tiles?",
+        "options": ["ListTile", "ListView", "Scrollable", "ListBody"]
+    },
+    {
+        "ques": "Which widget is used to add space between widgets?",
+        "options": ["Spacer", "Padding", "Margin", "Align"]
+    },
+    {
+        "ques": "What widget is used to define a stack of children that can be positioned?",
+        "options": ["Positioned", "Stack", "Align", "Container"]
+    },
+    {
+        "ques": "Which widget is used to create a checkable list item?",
+        "options": ["CheckboxListTile", "RadioListTile", "SwitchListTile", "ListTile"]
+    },
+    {
+        "ques": "What widget is used to create a box with rounded corners?",
+        "options": ["ClipRRect", "ClipOval", "ClipPath", "Container"]
+    },
+    {
+        "ques": "Which widget is used to draw a horizontal or vertical line?",
+        "options": ["Divider", "Line", "Separator", "Border"]
+    },
+    {
+        "ques": "What widget is used to create a dropdown menu?",
+        "options": ["DropdownButton", "PopupMenuButton", "ButtonBar", "PopupMenu"]
+    },
+    {
+        "ques": "What widget is used to apply a theme to its child widgets?",
+        "options": ["Theme", "InheritedWidget", "Container", "Builder"]
+    },
+    {
+        "ques": "Which widget is used to build an app's top-level navigator?",
+        "options": ["MaterialApp", "Scaffold", "AppBar", "Navigator"]
+    },
+    {
+        "ques": "What widget is used to display an image from memory?",
+        "options": ["Image.memory", "Image.asset", "Image.network", "Image.file"]
+    },
+    {
+        "ques": "Which widget provides a canvas on which to draw during the paint phase?",
+        "options": ["CustomPaint", "Paint", "Canvas", "Drawing"]
+    },
+    {
+        "ques": "What widget is used to create a custom scroll effect?",
+        "options": ["CustomScrollView", "ListView", "GridView", "ScrollView"]
+    },
+    {
+        "ques": "Which widget is used to create a button that opens a menu when pressed?",
+        "options": ["PopupMenuButton", "DropdownButton", "FlatButton", "IconButton"]
+    },
+    {
+        "ques": "What widget is used to create a toggleable button?",
+        "options": ["Switch", "Checkbox", "RadioButton", "ToggleButton"]
+    },
+    {
+        "ques": "Which widget is used to create a navigation drawer?",
+        "options": ["Drawer", "Scaffold", "AppBar", "Navigator"]
+    },
+    {
+        "ques": "What widget is used to create a sliding transition between screens?",
+        "options": ["PageRouteBuilder", "Transition", "Navigator", "PageView"]
+    },
+    {
+        "ques": "Which widget provides a way to control the layout of multiple children along the main axis and the cross axis?",
+        "options": ["Flex", "Column", "Row", "Stack"]
+    },
+    {
+        "ques": "What widget is used to create a floating app bar?",
+        "options": ["SliverAppBar", "AppBar", "BottomAppBar", "TabBar"]
+    },
+    {
+        "ques": "Which widget is used to create a checkbox?",
+        "options": ["Checkbox", "Switch", "Radio", "ToggleButton"]
+    },
+    {
+        "ques": "What widget is used to handle user interactions like tapping?",
+        "options": ["GestureDetector", "Listener", "Focus", "MouseRegion"]
+    },
+    {
+        "ques": "Which widget is used to create a scrollable grid of widgets?",
+        "options": ["GridView", "ListView", "Scrollable", "Table"]
+    },
+    {
+        "ques": "What widget is used to create a clickable list item?",
+        "options": ["InkWell", "GestureDetector", "FlatButton", "ListTile"]
+    },
+    {
+        "ques": "What widget is used to create a bottom navigation bar?",
+        "options": ["BottomNavigationBar", "BottomAppBar", "NavigationRail", "TabBar"]
+    },
+    {
+        "ques": "Which widget is used to create a selectable text field?",
+        "options": ["TextField", "SelectableText", "Text", "RichText"]
+    },
+    {
+        "ques": "What widget is used to create a circular avatar?",
+        "options": ["CircleAvatar", "Avatar", "ClipOval", "ProfilePicture"]
+    },
+    {
+        "ques": "Which widget is used to add shadows to a box?",
+        "options": ["BoxShadow", "Shadow", "Decoration", "Paint"]
+    },
+    {
+        "ques": "What widget is used to create a radio button?",
+        "options": ["Radio", "Checkbox", "Switch", "ToggleButton"]
+    },
+    {
+        "ques": "Which widget is used to create a list item with a leading icon and trailing widget?",
+        "options": ["ListTile", "ListBody", "Column", "Row"]
+    },
+    {
+        "ques": "What widget is used to create a scrollable, two-dimensional array of widgets?",
+        "options": ["GridView", "Table", "ListView", "Stack"]
+    },
+    {
+        "ques": "Which widget is used to apply a shadow to text?",
+        "options": ["TextShadow", "Shadow", "TextDecoration", "TextStyle"]
+    },
+    {
+        "ques": "What widget is used to create a scaffold for the app's visual structure?",
+        "options": ["Scaffold", "Container", "AppBar", "Body"]
+    },
+    {
+        "ques": "Which widget is used to animate a widget from one position to another?",
+        "options": ["AnimatedPositioned", "AnimatedContainer", "AnimatedAlign", "AnimatedOpacity"]
+    },
+    {
+        "ques": "What widget is used to control the visible portion of a larger widget?",
+        "options": ["Viewport", "ClipRect", "Container", "Transform"]
+    },
+    {
+        "ques": "Which widget is used to create a grid of items with a fixed aspect ratio?",
+        "options": ["GridView.extent", "GridView.count", "GridView.builder", "GridView.custom"]
+    },
+    {
+        "ques": "What widget is used to create a progress indicator that is linear?",
+        "options": ["LinearProgressIndicator", "CircularProgressIndicator", "ProgressBar", "Slider"]
+    },
+    {
+        "ques": "Which widget is used to lay out its children in multiple columns or rows?",
+        "options": ["Wrap", "Row", "Column", "GridView"]
+    },
+    {
+        "ques": "What widget is used to create a stack of children that can be positioned relative to the top left corner?",
+        "options": ["Stack", "Positioned", "Align", "Transform"]
+    },
+    {
+        "ques": "What widget is used to apply a background image to its child?",
+        "options": ["DecoratedBox", "Container", "Stack", "Positioned"]
+    },
+    {
+        "ques": "Which widget is used to create a gradient background?",
+        "options": ["Container", "Gradient", "BoxDecoration", "LinearGradient"]
+    },
+    {
+        "ques": "What widget is used to paint an area with a radial gradient?",
+        "options": ["RadialGradient", "Gradient", "Container", "DecoratedBox"]
+    },
+    {
+        "ques": "Which widget is used to make its child partially or fully invisible?",
+        "options": ["Visibility", "Opacity", "AnimatedOpacity", "Hidden"]
+    },
+    {
+        "ques": "What widget is used to apply a transformation to its child?",
+        "options": ["Transform", "Transform.rotate", "Rotate", "Transform.scale"]
+    },
+    {
+        "ques": "Which widget is used to create an animation that switches between two children?",
+        "options": ["AnimatedCrossFade", "AnimatedSwitcher", "AnimatedBuilder", "AnimatedOpacity"]
+    },
+    {
+        "ques": "What widget is used to clip a widget using a rounded rectangle?",
+        "options": ["ClipRRect", "ClipOval", "ClipPath", "ClipRect"]
+    },
+    {
+        "ques": "Which widget is used to create a box with a linear gradient background?",
+        "options": ["Container", "LinearGradient", "BoxDecoration", "DecoratedBox"]
+    },
+    {
+        "ques": "What widget is used to create a horizontal line with padding?",
+        "options": ["Divider", "Padding", "SizedBox", "Container"]
+    },
+    {
+        "ques": "Which widget is used to build a widget that can overflow its parent?",
+        "options": ["OverflowBox", "Expanded", "Flexible", "FittedBox"]
+    },
+    {
+        "ques": "What widget is used to measure the dimensions of its child?",
+        "options": ["LayoutBuilder", "SizedBox", "Container", "Align"]
+    },
+    {
+        "ques": "Which widget is used to create a box with a border?",
+        "options": ["Container", "DecoratedBox", "BoxDecoration", "Border"]
+    },
+    {
+        "ques": "What widget is used to create a list that can be refreshed by pulling down?",
+        "options": ["RefreshIndicator", "ListView", "Scrollable", "ScrollView"]
+    },
+    {
+        "ques": "Which widget is used to paint an image onto the screen?",
+        "options": ["CustomPaint", "Image", "Canvas", "Painter"]
+    },
+    {
+        "ques": "What widget is used to create a navigation drawer with a persistent header?",
+        "options": ["DrawerHeader", "Drawer", "AppBar", "Scaffold"]
+    },
+    {
+        "ques": "What widget is used to create a grid of widgets with variable sizes?",
+        "options": ["GridView.custom", "GridView.extent", "GridView.count", "GridView.builder"]
+    },
+    {
+        "ques": "Which widget is used to create a circular progress indicator?",
+        "options": ["CircularProgressIndicator", "LinearProgressIndicator", "ProgressBar", "Slider"]
+    },
+    {
+        "ques": "What widget is used to create a widget that expands to fill its parent?",
+        "options": ["Expanded", "Flexible", "SizedBox", "Container"]
+    },
+    {
+        "ques": "Which widget is used to create a button with a customizable shape?",
+        "options": ["FlatButton", "OutlinedButton", "ElevatedButton", "IconButton"]
+    },
+    {
+        "ques": "What widget is used to create a button that responds to touches?",
+        "options": ["InkWell", "GestureDetector", "FlatButton", "RaisedButton"]
+    },
+    {
+        "ques": "Which widget is used to create a widget that reacts to user input?",
+        "options": ["Listener", "GestureDetector", "InkWell", "FlatButton"]
+    },
+    {
+        "ques": "What widget is used to create a widget that can have a shadow and rounded corners?",
+        "options": ["Material", "Card", "Container", "ClipRRect"]
+    },
+    {
+        "ques": "Which widget is used to create a widget that can display both images and text?",
+        "options": ["ListTile", "Card", "Container", "Stack"]
+    },
+    {
+        "ques": "What widget is used to create a widget that clips its child using an oval shape?",
+        "options": ["ClipOval", "ClipRRect", "ClipPath", "ClipRect"]
+    },
+    {
+        "ques": "Which widget is used to create a widget that provides a basic Material Design visual layout structure?",
+        "options": ["Scaffold", "Material", "Container", "Card"]
+    },
+    {
+        "ques": "What widget is used to create a widget that animates changes in its size, position, or opacity?",
+        "options": ["AnimatedContainer", "TweenAnimationBuilder", "AnimatedBuilder", "AnimatedOpacity"]
+    },
+    {
+        "ques": "Which widget is used to create a widget that lets users select a date from a calendar?",
+        "options": ["DatePicker", "DateSelector", "CalendarPicker", "DateTimePicker"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a scrollable list of items?",
+        "options": ["ListView", "ScrollableList", "ScrollableView", "ListTile"]
+    },
+    {
+        "ques": "Which widget is used to create a widget that lays out its children relative to a widget or the widget's parent?",
+        "options": ["Positioned", "Align", "Stack", "Container"]
+    },
+    {
+        "ques": "What widget is used to create a widget that allows users to swipe left or right to change the current page?",
+        "options": ["PageView", "ViewPager", "TabBarView", "Carousel"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides spacing between its children?",
+        "options": ["Spacer", "SizedBox", "Padding", "Margin"]
+    },
+    {
+        "ques": "Which widget is used to create a widget that provides a way to animate between two or more widgets?",
+        "options": ["AnimatedSwitcher", "AnimatedCrossFade", "AnimatedBuilder", "TweenAnimationBuilder"]
+    },
+    {
+        "ques": "What widget is used to create a widget that can contain multiple child widgets and scroll them?",
+        "options": ["ListView", "ScrollView", "GridView", "Column"]
+    },
+    {
+        "ques": "Which widget is used to create a widget that provides a circular icon button?",
+        "options": ["FloatingActionButton", "IconButton", "FlatButton", "ElevatedButton"]
+    },
+    {
+        "ques": "What widget is used to create a widget that displays a single-line text label?",
+        "options": ["Text", "TextField", "RichText", "Typography"]
+    },
+    {
+        "ques": "Which widget is used to create a widget that provides a box decoration with rounded corners?",
+        "options": ["ClipRRect", "Container", "Card", "DecoratedBox"]
+    },
+    {
+        "ques": "What widget is used to create a widget that lays out its children in a horizontal row?",
+        "options": ["Row", "Column", "Flex", "Wrap"]
+    },
+    {
+        "ques": "Which widget is used to create a widget that provides a way to overlay a rectangular area of a Material widget?",
+        "options": ["Material", "Overlay", "Container", "Stack"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to clip its child using a rectangle?",
+        "options": ["ClipRect", "ClipOval", "ClipRRect", "ClipPath"]
+    },
+    {
+        "ques": "Which widget is used to create a widget that provides a way to specify the shape of a widget's border?",
+        "options": ["ShapeBorder", "Border", "BoxDecoration", "Outline"]
+    },
+    {
+        "ques": "What widget is used to create a widget that displays a menu when pressed and other widgets in it?",
+        "options": ["PopupMenuButton", "DropdownButton", "FlatButton", "IconButton"]
+    },
+    {
+        "ques": "Which widget is used to create a widget that provides a way to animate its changes in visual properties?",
+        "options": ["AnimatedContainer", "TweenAnimationBuilder", "AnimatedBuilder", "AnimatedOpacity"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to select a single value from a set of options?",
+        "options": ["Radio", "Checkbox", "Switch", "ToggleButton"]
+    },
+    {
+        "ques": "Which widget is used to create a button with a text label?",
+        "options": ["FlatButton", "RaisedButton", "TextButton", "OutlinedButton"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to arrange its children in a linear array?",
+        "options": ["Column", "Row", "Flex", "Wrap"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to add padding around its child?",
+        "options": ["Padding", "Container", "SizedBox", "Margin"]
+    },
+    {
+        "ques": "Which widget is used to create a widget that provides a way to display a dialog to the user?",
+        "options": ["AlertDialog", "BottomSheet", "PopupMenuButton", "SnackBar"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to display a tooltip?",
+        "options": ["Tooltip", "PopupMenuButton", "DropdownButton", "FlatButton"]
+    },
+    {
+        "ques": "Which widget is used to create a widget that provides a way to display an image from the internet?",
+        "options": ["Image.network", "Image.asset", "Image.file", "Image.memory"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a linear array of items?",
+        "options": ["ListView", "GridView", "Column", "Row"]
+    },
+    {
+        "ques": "Which widget is used to create a scrollable area with flexible content?",
+        "options": ["CustomScrollView", "SingleChildScrollView", "NestedScrollView", "ScrollView"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a button with an icon?",
+        "options": ["IconButton", "FlatButton", "RaisedButton", "ElevatedButton"]
+    },
+    {
+        "ques": "Which widget is used to create a widget with a fixed size?",
+        "options": ["SizedBox", "Container", "Expanded", "Flexible"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget with rounded corners?",
+        "options": ["ClipRRect", "ClipOval", "ClipPath", "ClipRect"]
+    },
+    {
+        "ques": "Which widget is used to create a text label?",
+        "options": ["Text", "TextField", "RichText", "Typography"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a button with a customizable shape?",
+        "options": ["OutlinedButton", "ElevatedButton", "FlatButton", "IconButton"]
+    },
+    {
+        "ques": "Which widget is used to create a widget that responds to user interactions?",
+        "options": ["GestureDetector", "InkWell", "Listener", "RawGestureDetector"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget with a decoration?",
+        "options": ["DecoratedBox", "Container", "BoxDecoration", "Material"]
+    },
+    {
+        "ques": "Which widget is used to create a widget that expands its child?",
+        "options": ["Expanded", "Flexible", "SizedBox", "Container"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget that aligns its child within itself?",
+        "options": ["Align", "Center", "Padding", "Margin"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget with a circular shape?",
+        "options": ["ClipOval", "CircleAvatar", "CircularProgressIndicator", "Container"]
+    },
+    {
+        "ques": "Which widget is used to create a widget with a fixed aspect ratio?",
+        "options": ["AspectRatio", "Container", "Expanded", "Flexible"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget with a border?",
+        "options": ["Container", "BoxDecoration", "Border", "ClipRRect"]
+    },
+    {
+        "ques": "Which widget is used to create a widget with a gradient background?",
+        "options": ["Container", "DecoratedBox", "BoxDecoration", "Gradient"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget with a shadow?",
+        "options": ["Container", "BoxShadow", "DecoratedBox", "Shadow"]
+    },
+    {
+        "ques": "Which widget is used to create a widget with rounded corners and a shadow?",
+        "options": ["Card", "Container", "ClipRRect", "DecoratedBox"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget with an elevation?",
+        "options": ["Material", "Elevation", "Container", "BoxDecoration"]
+    },
+    {
+        "ques": "Which widget is used to create a widget with a circular indicator of progress?",
+        "options": ["CircularProgressIndicator", "LinearProgressIndicator", "ProgressBar", "Slider"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget with a linear gradient?",
+        "options": ["LinearGradient", "RadialGradient", "Gradient", "Container"]
+    },
+    {
+        "ques": "Which widget is used to create a widget with an opacity effect?",
+        "options": ["Opacity", "Transparent", "FadeTransition", "AnimatedOpacity"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget with a rounded rectangle clip?",
+        "options": ["ClipRRect", "ClipOval", "ClipPath", "ClipRect"]
+    },
+    {
+        "ques": "Which widget is used to create a widget with a scrollable area?",
+        "options": ["SingleChildScrollView", "ListView", "ScrollView", "CustomScrollView"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget with a sliding panel?",
+        "options": ["BottomSheet", "ModalBottomSheet", "PersistentBottomSheet", "SlidingPanel"]
+    },
+    {
+        "ques": "Which widget is used to create a widget with a text label?",
+        "options": ["Text", "TextField", "RichText", "Typography"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget with a widget that reacts to gestures?",
+        "options": ["GestureDetector", "InkWell", "Listener", "RawGestureDetector"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget with a clickable area?",
+        "options": ["InkWell", "GestureDetector", "FlatButton", "RaisedButton"]
+    },
+    {
+        "ques": "Which widget is used to create a widget with a progress indicator?",
+        "options": ["CircularProgressIndicator", "LinearProgressIndicator", "ProgressBar", "Slider"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget with a button that responds to touches?",
+        "options": ["GestureDetector", "InkWell", "Listener", "RawGestureDetector"]
+    },
+    {
+        "ques": "Which widget is used to create a widget with a transparent background?",
+        "options": ["Opacity", "Container", "DecoratedBox", "Material"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget with an elevation shadow?",
+        "options": ["Material", "Elevation", "Container", "BoxDecoration"]
+    },
+    {
+        "ques": "Which widget is used to create a widget with a circular shape?",
+        "options": ["ClipOval", "CircleAvatar", "CircularProgressIndicator", "Container"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget with a padding around its child?",
+        "options": ["Padding", "Container", "SizedBox", "Margin"]
+    },
+    {
+        "ques": "Which widget is used to create a widget with a dialog?",
+        "options": ["AlertDialog", "BottomSheet", "PopupMenuButton", "SnackBar"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget with a tooltip?",
+        "options": ["Tooltip", "PopupMenuButton", "DropdownButton", "FlatButton"]
+    },
+    {
+        "ques": "Which widget is used to create a widget with an image from the internet?",
+        "options": ["Image.network", "Image.asset", "Image.file", "Image.memory"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget with a linear array of items?",
+        "options": ["ListView", "GridView", "Column", "Row"]
+    },
+    {
+        "ques": "Which widget is used to create a scrollable area with flexible content?",
+        "options": ["CustomScrollView", "SingleChildScrollView", "NestedScrollView", "ScrollView"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget with an icon button?",
+        "options": ["IconButton", "FlatButton", "RaisedButton", "ElevatedButton"]
+    },
+    {
+        "ques": "Which widget is used to create a widget with a fixed size?",
+        "options": ["SizedBox", "Container", "Expanded", "Flexible"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget with rounded corners?",
+        "options": ["ClipRRect", "ClipOval", "ClipPath", "ClipRect"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget with a draggable behavior?",
+        "options": ["Draggable", "DragTarget", "GestureDetector", "DraggableScrollableSheet"]
+    },
+    {
+        "ques": "Which widget is used to create a widget with a backdrop blur effect?",
+        "options": ["BackdropFilter", "BlurEffect", "Container", "Opacity"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget with a grid layout?",
+        "options": ["GridView", "Table", "Row", "Column"]
+    },
+    {
+        "ques": "Which widget is used to create a widget with an offstage visibility?",
+        "options": ["Offstage", "Visibility", "Opacity", "AnimatedOpacity"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget with a draggable scrollable sheet?",
+        "options": ["DraggableScrollableSheet", "Draggable", "DragTarget", "GestureDetector"]
+    },
+    {
+        "ques": "Which widget is used to create a widget with a circular reveal animation?",
+        "options": ["CircularRevealAnimation", "Hero", "ClipOval", "RadialAnimation"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget with a hero animation?",
+        "options": ["Hero", "AnimatedHero", "MotionHero", "HeroAnimation"]
+    },
+    {
+        "ques": "Which widget is used to create a widget with an overlay?",
+        "options": ["Overlay", "Stack", "Material", "Modal"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget with an aspect ratio?",
+        "options": ["AspectRatio", "Container", "Expanded", "Flexible"]
+    },
+    {
+        "ques": "Which widget is used to create a widget with an infinite list of items?",
+        "options": ["ListView.builder", "ListView", "SingleChildScrollView", "Scrollable"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget with a localized text?",
+        "options": ["Text", "RichText", "LocaleText", "LocalizedText"]
+    },
+    {
+        "ques": "Which widget is used to create a widget with a centered alignment?",
+        "options": ["Center", "Align", "Padding", "Margin"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget with a background decoration?",
+        "options": ["DecoratedBox", "Container", "BoxDecoration", "Material"]
+    },
+    {
+        "ques": "Which widget is used to create a widget with an opacity effect?",
+        "options": ["Opacity", "Transparent", "FadeTransition", "AnimatedOpacity"]
+    },
+    {
+        "ques": "What widget is used to create a widget that provides a way to create a widget with a safe area?",
+        "options": ["SafeArea", "Scaffold", "Container", "Padding"]
+    }
+]
